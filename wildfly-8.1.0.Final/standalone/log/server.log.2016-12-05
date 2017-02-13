@@ -1,0 +1,1378 @@
+2016-12-05 00:09:08,403 INFO  [stdout] (default task-79) jestem w logout
+2016-12-05 00:09:08,526 INFO  [stdout] (default task-82) Jestem w UserController -> postConstruct()
+2016-12-05 00:09:34,548 INFO  [stdout] (default task-86) userName = mat
+2016-12-05 00:09:52,490 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-99) Error Rendering View[/calendar.xhtml]: org.primefaces.expression.ComponentNotFoundException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at org.primefaces.expression.SearchExpressionFacade.cannotFindComponent(SearchExpressionFacade.java:677) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveComponentById(SearchExpressionFacade.java:493) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveClientIds(SearchExpressionFacade.java:258) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.addExpressions(AjaxRequestBuilder.java:92) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.update(AjaxRequestBuilder.java:85) [primefaces-6.0.jar:6.0]
+	at org.primefaces.behavior.ajax.AjaxBehaviorRenderer.getScript(AjaxBehaviorRenderer.java:85) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.behavior.ClientBehaviorBase.getScript(ClientBehaviorBase.java:103) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at org.primefaces.renderkit.CoreRenderer.encodeClientBehaviors(CoreRenderer.java:514) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeScript(ScheduleRenderer.java:228) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeEnd(ScheduleRenderer.java:64) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:312) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.renderRow(GridRenderer.java:185) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.encodeChildren(GridRenderer.java:129) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:461) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at salasa.filters.LoginFilter.doFilter(LoginFilter.java:46) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+
+2016-12-05 00:09:52,496 ERROR [io.undertow.request] (default task-99) UT005023: Exception handling request to /inzynierka-web/calendar.xhtml: javax.servlet.ServletException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at salasa.filters.LoginFilter.doFilter(LoginFilter.java:46) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+Caused by: org.primefaces.expression.ComponentNotFoundException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at org.primefaces.expression.SearchExpressionFacade.cannotFindComponent(SearchExpressionFacade.java:677) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveComponentById(SearchExpressionFacade.java:493) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveClientIds(SearchExpressionFacade.java:258) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.addExpressions(AjaxRequestBuilder.java:92) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.update(AjaxRequestBuilder.java:85) [primefaces-6.0.jar:6.0]
+	at org.primefaces.behavior.ajax.AjaxBehaviorRenderer.getScript(AjaxBehaviorRenderer.java:85) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.behavior.ClientBehaviorBase.getScript(ClientBehaviorBase.java:103) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at org.primefaces.renderkit.CoreRenderer.encodeClientBehaviors(CoreRenderer.java:514) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeScript(ScheduleRenderer.java:228) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeEnd(ScheduleRenderer.java:64) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:312) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.renderRow(GridRenderer.java:185) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.encodeChildren(GridRenderer.java:129) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:461) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	... 34 more
+
+2016-12-05 00:09:53,024 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-93) Error Rendering View[/calendar.xhtml]: org.primefaces.expression.ComponentNotFoundException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at org.primefaces.expression.SearchExpressionFacade.cannotFindComponent(SearchExpressionFacade.java:677) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveComponentById(SearchExpressionFacade.java:493) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveClientIds(SearchExpressionFacade.java:258) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.addExpressions(AjaxRequestBuilder.java:92) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.update(AjaxRequestBuilder.java:85) [primefaces-6.0.jar:6.0]
+	at org.primefaces.behavior.ajax.AjaxBehaviorRenderer.getScript(AjaxBehaviorRenderer.java:85) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.behavior.ClientBehaviorBase.getScript(ClientBehaviorBase.java:103) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at org.primefaces.renderkit.CoreRenderer.encodeClientBehaviors(CoreRenderer.java:514) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeScript(ScheduleRenderer.java:228) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeEnd(ScheduleRenderer.java:64) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:312) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.renderRow(GridRenderer.java:185) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.encodeChildren(GridRenderer.java:129) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:461) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at salasa.filters.LoginFilter.doFilter(LoginFilter.java:46) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+
+2016-12-05 00:09:53,029 ERROR [io.undertow.request] (default task-93) UT005023: Exception handling request to /inzynierka-web/calendar.xhtml: javax.servlet.ServletException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at salasa.filters.LoginFilter.doFilter(LoginFilter.java:46) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+Caused by: org.primefaces.expression.ComponentNotFoundException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at org.primefaces.expression.SearchExpressionFacade.cannotFindComponent(SearchExpressionFacade.java:677) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveComponentById(SearchExpressionFacade.java:493) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveClientIds(SearchExpressionFacade.java:258) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.addExpressions(AjaxRequestBuilder.java:92) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.update(AjaxRequestBuilder.java:85) [primefaces-6.0.jar:6.0]
+	at org.primefaces.behavior.ajax.AjaxBehaviorRenderer.getScript(AjaxBehaviorRenderer.java:85) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.behavior.ClientBehaviorBase.getScript(ClientBehaviorBase.java:103) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at org.primefaces.renderkit.CoreRenderer.encodeClientBehaviors(CoreRenderer.java:514) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeScript(ScheduleRenderer.java:228) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeEnd(ScheduleRenderer.java:64) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:312) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.renderRow(GridRenderer.java:185) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.encodeChildren(GridRenderer.java:129) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:461) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	... 34 more
+
+2016-12-05 00:09:53,269 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-103) Error Rendering View[/calendar.xhtml]: org.primefaces.expression.ComponentNotFoundException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at org.primefaces.expression.SearchExpressionFacade.cannotFindComponent(SearchExpressionFacade.java:677) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveComponentById(SearchExpressionFacade.java:493) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveClientIds(SearchExpressionFacade.java:258) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.addExpressions(AjaxRequestBuilder.java:92) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.update(AjaxRequestBuilder.java:85) [primefaces-6.0.jar:6.0]
+	at org.primefaces.behavior.ajax.AjaxBehaviorRenderer.getScript(AjaxBehaviorRenderer.java:85) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.behavior.ClientBehaviorBase.getScript(ClientBehaviorBase.java:103) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at org.primefaces.renderkit.CoreRenderer.encodeClientBehaviors(CoreRenderer.java:514) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeScript(ScheduleRenderer.java:228) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeEnd(ScheduleRenderer.java:64) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:312) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.renderRow(GridRenderer.java:185) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.encodeChildren(GridRenderer.java:129) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:461) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at salasa.filters.LoginFilter.doFilter(LoginFilter.java:46) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+
+2016-12-05 00:09:53,274 ERROR [io.undertow.request] (default task-103) UT005023: Exception handling request to /inzynierka-web/calendar.xhtml: javax.servlet.ServletException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:659) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:130) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at salasa.filters.LoginFilter.doFilter(LoginFilter.java:46) [classes:]
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:60) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:132) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.DisableCacheHandler.handleRequest(DisableCacheHandler.java:27) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+Caused by: org.primefaces.expression.ComponentNotFoundException: Cannot find component for expression "eventDetails" referenced from "j_idt13:schedule".
+	at org.primefaces.expression.SearchExpressionFacade.cannotFindComponent(SearchExpressionFacade.java:677) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveComponentById(SearchExpressionFacade.java:493) [primefaces-6.0.jar:6.0]
+	at org.primefaces.expression.SearchExpressionFacade.resolveClientIds(SearchExpressionFacade.java:258) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.addExpressions(AjaxRequestBuilder.java:92) [primefaces-6.0.jar:6.0]
+	at org.primefaces.util.AjaxRequestBuilder.update(AjaxRequestBuilder.java:85) [primefaces-6.0.jar:6.0]
+	at org.primefaces.behavior.ajax.AjaxBehaviorRenderer.getScript(AjaxBehaviorRenderer.java:85) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.behavior.ClientBehaviorBase.getScript(ClientBehaviorBase.java:103) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at org.primefaces.renderkit.CoreRenderer.encodeClientBehaviors(CoreRenderer.java:514) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeScript(ScheduleRenderer.java:228) [primefaces-6.0.jar:6.0]
+	at org.primefaces.component.schedule.ScheduleRenderer.encodeEnd(ScheduleRenderer.java:64) [primefaces-6.0.jar:6.0]
+	at javax.faces.component.UIComponentBase.encodeEnd(UIComponentBase.java:919) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.renderkit.html_basic.HtmlBasicRenderer.encodeRecursive(HtmlBasicRenderer.java:312) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.renderRow(GridRenderer.java:185) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.renderkit.html_basic.GridRenderer.encodeChildren(GridRenderer.java:129) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:176) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:889) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1857) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1860) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:461) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:337) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	... 34 more
+
+2016-12-05 00:12:17,175 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-12-05 00:12:17,434 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-12-05 00:12:17,499 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2016-12-05 00:12:17,504 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Java\jdk1.8.0_20\jre\lib\endorsed
+	java.ext.dirs = C:\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Java\jdk1.8.0_20\jre
+	java.io.tmpdir = C:\Users\mateusz\AppData\Local\Temp\
+	java.library.path = C:\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Java/jdk1.8.0_20/jre/bin/server;C:/Java/jdk1.8.0_20/jre/bin;C:/Java/jdk1.8.0_20/jre/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\OpenVPN\bin;C:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\GNAT\2015\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\switch;C:\Users\mateusz\AppData\Roaming\cabal\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\git-2.4.0.1\cmd;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\git-2.4.0.1\usr\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\ghc-7.8.4\mingw\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\ghc-7.8.4\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\bin;C:\Users\mateusz\AppData\Local\atom\bin;C:\Users\mateusz\AppData\Local\Android\android-sdk\build-tools;C:\Users\mateusz\AppData\Local\Android\android-sdk\platform-tools;C:\Users\mateusz\AppData\Local\Android\android-sdk\tools;C:\Program Files\erl7.1\bin;C:\jboss-as-7.1.1.Final\bin;C:\Java\jdk1.8.0_20\bin;C:\apache-maven-3.3.9\bin;C:\eclipseEE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_20-b26
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_20
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.20-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final
+	jboss.host.name = mateusz
+	jboss.modules.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mateusz
+	jboss.qualified.host.name = mateusz
+	jboss.server.base.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = mateusz
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8
+	os.version = 6.2
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Java\jdk1.8.0_20\jre\classes
+	sun.boot.library.path = C:\Java\jdk1.8.0_20\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = PL
+	user.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\mateusz
+	user.language = pl
+	user.name = mateusz
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2016-12-05 00:12:17,505 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2016-12-05 00:12:18,972 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found inzynierka-ear.ear in deployment directory. To trigger deployment create a file called inzynierka-ear.ear.dodeploy
+2016-12-05 00:12:18,987 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-12-05 00:12:19,003 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.2.2.Final
+2016-12-05 00:12:19,010 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.2.2.Final
+2016-12-05 00:12:19,036 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2016-12-05 00:12:19,041 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2016-12-05 00:12:19,042 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-12-05 00:12:19,047 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2016-12-05 00:12:19,055 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2016-12-05 00:12:19,055 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2016-12-05 00:12:19,061 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2016-12-05 00:12:19,062 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-12-05 00:12:19,082 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2016-12-05 00:12:19,087 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2016-12-05 00:12:19,129 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017502: Undertow 1.0.15.Final starting
+2016-12-05 00:12:19,131 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.0.15.Final starting
+2016-12-05 00:12:19,159 INFO  [org.jboss.as.naming] (MSC service thread 1-11) JBAS011802: Starting Naming Service
+2016-12-05 00:12:19,162 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-12-05 00:12:19,165 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-12-05 00:12:19,171 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010417: Started Driver service with driver-name = h2
+2016-12-05 00:12:19,271 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2016-12-05 00:12:19,272 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-11) JBAS010417: Started Driver service with driver-name = mysqlDriver
+2016-12-05 00:12:19,346 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final/welcome-content
+2016-12-05 00:12:19,353 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017525: Started server default-server.
+2016-12-05 00:12:19,387 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017531: Host default-host starting
+2016-12-05 00:12:19,427 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.3.Final
+2016-12-05 00:12:19,528 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments
+2016-12-05 00:12:19,531 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:12:19,609 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:12:19,609 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:12:19,693 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2016-12-05 00:12:19,962 WARN  [jacorb.codeset] (MSC service thread 1-15) Warning - unknown codeset (Cp1250) - defaulting to ISO-8859-1
+2016-12-05 00:12:20,147 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:/mysql]
+2016-12-05 00:12:20,149 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-12-05 00:12:20,155 WARN  [org.jboss.as.messaging] (MSC service thread 1-3) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+2016-12-05 00:12:20,162 INFO  [org.jboss.as.jacorb] (MSC service thread 1-15) JBAS016330: CORBA ORB Service started
+2016-12-05 00:12:20,327 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messagingjournal,bindingsDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messagingpaging)
+2016-12-05 00:12:20,348 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2016-12-05 00:12:20,358 INFO  [org.jboss.as.jacorb] (MSC service thread 1-9) JBAS016328: CORBA Naming Service started
+2016-12-05 00:12:20,407 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221013: Using NIO Journal
+2016-12-05 00:12:20,840 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2016-12-05 00:12:21,009 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2016-12-05 00:12:21,017 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2016-12-05 00:12:21,020 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2016-12-05 00:12:21,406 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2016-12-05 00:12:21,407 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2016-12-05 00:12:22,850 INFO  [org.jboss.messaging] (MSC service thread 1-8) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2016-12-05 00:12:22,850 INFO  [org.jboss.messaging] (MSC service thread 1-13) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2016-12-05 00:12:22,929 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2016-12-05 00:12:22,930 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.1.Final (Fast Hornet, 124) [cd573558-b0c1-11e6-a465-a9f2e63caccd] 
+2016-12-05 00:12:22,948 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2016-12-05 00:12:22,949 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.DLQ
+2016-12-05 00:12:22,958 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2016-12-05 00:12:22,958 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2016-12-05 00:12:22,959 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2016-12-05 00:12:22,960 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2016-12-05 00:12:23,066 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) JBAS010406: Registered connection factory java:/JmsXA
+2016-12-05 00:12:23,112 INFO  [org.hornetq.ra] (MSC service thread 1-8) HornetQ resource adaptor started
+2016-12-05 00:12:23,113 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2016-12-05 00:12:23,116 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2016-12-05 00:12:23,116 INFO  [org.jboss.as.messaging] (MSC service thread 1-14) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2016-12-05 00:12:23,396 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:12:23,733 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-2) JBREM000200: Remote connection failed: java.io.IOException: Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie
+2016-12-05 00:12:23,733 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-1) JBREM000200: Remote connection failed: java.io.IOException: Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie
+2016-12-05 00:12:23,781 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2016-12-05 00:12:23,829 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:12:23,861 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:12:23,868 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:12:23,970 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 57) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:12:24,262 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-13) HV000001: Hibernate Validator 5.1.0.Final
+2016-12-05 00:12:24,609 INFO  [org.jboss.weld.deployer] (MSC service thread 1-12) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:12:24,758 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 57) HHH000412: Hibernate Core {4.3.5.Final}
+2016-12-05 00:12:24,777 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000206: hibernate.properties not found
+2016-12-05 00:12:24,780 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000021: Bytecode provider name : javassist
+2016-12-05 00:12:24,985 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:12:24,989 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-13) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:12:24,989 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-13) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:12:25,001 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:12:25,095 INFO  [org.jboss.weld.Version] (MSC service thread 1-13) WELD-000900: 2.1.2 (Final)
+2016-12-05 00:12:25,108 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:12:25,361 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:12:25,542 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 57) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2016-12-05 00:12:26,123 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 57) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:12:26,457 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 57) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:12:27,804 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:12:27,804 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000102: Fetching database metadata
+2016-12-05 00:12:27,809 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000396: Updating schema
+2016-12-05 00:12:27,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:12:27,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:12:27,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000108: Foreign keys: []
+2016-12-05 00:12:27,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:12:27,836 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000261: Table found: inzynierka.user
+2016-12-05 00:12:27,837 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:12:27,837 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000108: Foreign keys: []
+2016-12-05 00:12:27,837 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000126: Indexes: [primary]
+2016-12-05 00:12:27,838 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000232: Schema update complete
+2016-12-05 00:12:28,598 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-3) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:12:28,975 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-5) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:12:30,593 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-5) Running on PrimeFaces 6.0
+2016-12-05 00:12:30,677 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-5) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:12:30,741 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:12:30,781 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "inzynierka-ear.ear" (runtime-name : "inzynierka-ear.ear")
+2016-12-05 00:12:31,045 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-12-05 00:12:31,046 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-12-05 00:12:31,046 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 14164ms - Started 469 of 532 services (118 services are lazy, passive or on-demand)
+2016-12-05 00:12:32,658 INFO  [stdout] (default task-12) Jestem w UserController -> postConstruct()
+2016-12-05 00:12:32,659 INFO  [stdout] (default task-13) Jestem w UserController -> postConstruct()
+2016-12-05 00:12:34,290 INFO  [stdout] (default task-16) userName = mat
+2016-12-05 00:14:11,004 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:14:11,024 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:11,029 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:14:11,066 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:11,068 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:14:11,078 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 81ms
+2016-12-05 00:14:11,337 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 339ms
+2016-12-05 00:14:11,337 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 340ms
+2016-12-05 00:14:11,338 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:14:11,362 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:14:11,363 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:14:11,565 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:14:11,619 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:14:11,621 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:11,621 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 65) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:14:11,650 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:14:11,667 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:14:11,669 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:14:11,669 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:14:11,674 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:14:11,678 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:14:11,681 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:14:11,699 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:11,706 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 65) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:14:11,715 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 65) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:14:11,749 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 65) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:14:11,749 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 65) HHH000102: Fetching database metadata
+2016-12-05 00:14:11,750 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 65) HHH000396: Updating schema
+2016-12-05 00:14:11,760 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:14:11,760 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:14:11,761 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000108: Foreign keys: []
+2016-12-05 00:14:11,761 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:14:11,769 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000261: Table found: inzynierka.user
+2016-12-05 00:14:11,769 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:14:11,769 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000108: Foreign keys: []
+2016-12-05 00:14:11,769 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 65) HHH000126: Indexes: [primary]
+2016-12-05 00:14:11,769 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 65) HHH000232: Schema update complete
+2016-12-05 00:14:12,075 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-6) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:14:12,192 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-5) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:14:12,706 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-5) Running on PrimeFaces 6.0
+2016-12-05 00:14:12,730 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-5) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:14:12,738 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:14:13,734 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:14:14,985 INFO  [stdout] (default task-95) Jestem w UserController -> postConstruct()
+2016-12-05 00:14:16,459 INFO  [stdout] (default task-100) userName = mat
+2016-12-05 00:14:53,828 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:14:53,840 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:53,843 INFO  [org.jboss.weld.deployer] (MSC service thread 1-12) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:14:53,855 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:53,857 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:14:53,859 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 34ms
+2016-12-05 00:14:54,036 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 210ms
+2016-12-05 00:14:54,037 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 211ms
+2016-12-05 00:14:54,038 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-9) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:14:54,053 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:14:54,053 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:14:54,223 INFO  [org.jboss.as.jpa] (MSC service thread 1-10) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:14:54,268 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:14:54,270 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:54,271 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 69) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:14:54,297 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:14:54,315 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:14:54,316 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:14:54,316 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:14:54,321 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:14:54,327 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:14:54,331 INFO  [org.jboss.weld.deployer] (MSC service thread 1-11) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:14:54,351 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:14:54,357 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 69) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:14:54,365 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 69) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:14:54,394 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 69) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:14:54,394 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 69) HHH000102: Fetching database metadata
+2016-12-05 00:14:54,394 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 69) HHH000396: Updating schema
+2016-12-05 00:14:54,402 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:14:54,402 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:14:54,402 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000108: Foreign keys: []
+2016-12-05 00:14:54,402 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:14:54,410 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000261: Table found: inzynierka.user
+2016-12-05 00:14:54,411 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:14:54,411 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000108: Foreign keys: []
+2016-12-05 00:14:54,411 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 69) HHH000126: Indexes: [primary]
+2016-12-05 00:14:54,411 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 69) HHH000232: Schema update complete
+2016-12-05 00:14:54,654 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-11) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:14:54,766 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-4) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:14:55,330 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-4) Running on PrimeFaces 6.0
+2016-12-05 00:14:55,356 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-4) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:14:55,365 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:14:55,500 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:14:56,173 INFO  [stdout] (default task-5) Jestem w UserController -> postConstruct()
+2016-12-05 00:14:57,316 INFO  [stdout] (default task-8) userName = mat
+2016-12-05 00:16:25,070 INFO  [stdout] (default task-65) Jestem w UserController -> postConstruct()
+2016-12-05 00:16:25,547 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-66) JSF1064: Unable to find or serve resource, theme.css, from library, primefaces-aristo.
+2016-12-05 00:16:25,548 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-66) : java.io.IOException: Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) [rt.jar:1.8.0_20]
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:55) [rt.jar:1.8.0_20]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148) [rt.jar:1.8.0_20]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:503) [rt.jar:1.8.0_20]
+	at org.xnio.nio.NioSocketConduit.write(NioSocketConduit.java:159)
+	at io.undertow.server.protocol.http.HttpResponseConduit.write(HttpResponseConduit.java:561) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.conduits.ChunkedStreamSinkConduit.doWrite(ChunkedStreamSinkConduit.java:165) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.conduits.ChunkedStreamSinkConduit.write(ChunkedStreamSinkConduit.java:128) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.write(ConduitStreamSinkChannel.java:150)
+	at io.undertow.channels.DetachableStreamSinkChannel.write(DetachableStreamSinkChannel.java:217) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.writeBufferBlocking(ServletOutputStreamImpl.java:584) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.write(ServletOutputStreamImpl.java:221) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at java.nio.channels.Channels$WritableByteChannelImpl.write(Channels.java:458) [rt.jar:1.8.0_20]
+	at com.sun.faces.application.resource.ResourceHandlerImpl.handleResourceRequest(ResourceHandlerImpl.java:343) [jsf-impl-2.2.6-jbossorg-4.jar:]
+	at javax.faces.application.ResourceHandlerWrapper.handleResourceRequest(ResourceHandlerWrapper.java:153) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at org.primefaces.application.resource.PrimeResourceHandler.handleResourceRequest(PrimeResourceHandler.java:87) [primefaces-6.0.jar:6.0]
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:643) [jboss-jsf-api_2.2_spec-2.2.6.jar:2.2.6]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:113) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationConstraintHandler.handleRequest(AuthenticationConstraintHandler.java:51) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:61) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityConstraintHandler.handleRequest(ServletSecurityConstraintHandler.java:56) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:25) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:240) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:227) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:73) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:146) [undertow-servlet-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:177) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:727) [undertow-core-1.0.15.Final.jar:1.0.15.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+
+2016-12-05 00:16:41,018 INFO  [stdout] (default task-72) userName = mat
+2016-12-05 00:16:55,662 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:16:55,676 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:16:55,678 INFO  [org.jboss.weld.deployer] (MSC service thread 1-12) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:16:55,687 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:16:55,689 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:16:55,694 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 33ms
+2016-12-05 00:16:55,766 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 105ms
+2016-12-05 00:16:55,767 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 106ms
+2016-12-05 00:16:55,767 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:16:55,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:16:55,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:16:55,965 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:16:56,006 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:16:56,007 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:16:56,007 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:16:56,031 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:16:56,046 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:16:56,047 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:16:56,047 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:16:56,051 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:16:56,054 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:16:56,058 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:16:56,073 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:16:56,079 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 78) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:16:56,086 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 78) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:16:56,115 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 78) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:16:56,115 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 78) HHH000102: Fetching database metadata
+2016-12-05 00:16:56,115 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 78) HHH000396: Updating schema
+2016-12-05 00:16:56,124 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:16:56,125 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:16:56,125 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000108: Foreign keys: []
+2016-12-05 00:16:56,125 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:16:56,135 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000261: Table found: inzynierka.user
+2016-12-05 00:16:56,135 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:16:56,136 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000108: Foreign keys: []
+2016-12-05 00:16:56,136 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 78) HHH000126: Indexes: [primary]
+2016-12-05 00:16:56,136 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 78) HHH000232: Schema update complete
+2016-12-05 00:16:56,348 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-11) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:16:56,459 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-13) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:16:57,033 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-13) Running on PrimeFaces 6.0
+2016-12-05 00:16:57,060 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-13) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:16:57,067 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:16:57,186 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:17:03,329 INFO  [stdout] (default task-128) Jestem w UserController -> postConstruct()
+2016-12-05 00:17:06,465 INFO  [stdout] (default task-6) userName = mat
+2016-12-05 00:17:52,730 INFO  [stdout] (default task-6) jestem w logout
+2016-12-05 00:17:52,761 INFO  [stdout] (default task-7) Jestem w UserController -> postConstruct()
+2016-12-05 00:17:57,188 INFO  [stdout] (default task-10) userName = mat
+2016-12-05 00:18:17,311 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:18:17,328 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:17,331 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:18:17,356 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:17,358 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:18:17,362 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 53ms
+2016-12-05 00:18:17,510 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 202ms
+2016-12-05 00:18:17,512 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 203ms
+2016-12-05 00:18:17,513 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:18:17,544 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:18:17,544 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:18:17,714 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:18:17,749 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:18:17,751 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:17,751 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 85) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:18:17,777 INFO  [org.jboss.weld.deployer] (MSC service thread 1-16) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:18:17,793 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:18:17,794 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:18:17,795 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:18:17,798 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:18:17,802 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:18:17,804 INFO  [org.jboss.weld.deployer] (MSC service thread 1-12) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:18:17,823 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:17,828 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 85) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:18:17,836 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 85) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:18:17,866 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 85) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:18:17,866 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 85) HHH000102: Fetching database metadata
+2016-12-05 00:18:17,866 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 85) HHH000396: Updating schema
+2016-12-05 00:18:17,873 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:18:17,873 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:18:17,873 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000108: Foreign keys: []
+2016-12-05 00:18:17,873 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:18:17,881 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000261: Table found: inzynierka.user
+2016-12-05 00:18:17,881 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:18:17,881 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000108: Foreign keys: []
+2016-12-05 00:18:17,881 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 85) HHH000126: Indexes: [primary]
+2016-12-05 00:18:17,882 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 85) HHH000232: Schema update complete
+2016-12-05 00:18:18,087 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-2) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:18:18,160 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-2) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:18:18,598 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-2) Running on PrimeFaces 6.0
+2016-12-05 00:18:18,613 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-2) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:18:18,619 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:18:18,794 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:18:28,838 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:18:28,852 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:28,854 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:18:28,863 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:28,866 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:18:28,872 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 35ms
+2016-12-05 00:18:29,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 185ms
+2016-12-05 00:18:29,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 187ms
+2016-12-05 00:18:29,024 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:18:29,037 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:18:29,037 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:18:29,196 INFO  [org.jboss.as.jpa] (MSC service thread 1-12) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:18:29,228 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:18:29,229 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:29,229 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 87) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:18:29,252 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:18:29,266 INFO  [org.jboss.weld.deployer] (MSC service thread 1-16) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:18:29,268 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-16) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:18:29,268 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-16) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:18:29,271 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:18:29,275 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:18:29,279 INFO  [org.jboss.weld.deployer] (MSC service thread 1-15) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:18:29,294 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 87) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:18:29,299 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 87) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:18:29,305 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 87) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:18:29,346 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 87) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:18:29,346 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 87) HHH000102: Fetching database metadata
+2016-12-05 00:18:29,346 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 87) HHH000396: Updating schema
+2016-12-05 00:18:29,355 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:18:29,355 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:18:29,355 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000108: Foreign keys: []
+2016-12-05 00:18:29,355 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:18:29,365 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000261: Table found: inzynierka.user
+2016-12-05 00:18:29,365 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:18:29,365 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000108: Foreign keys: []
+2016-12-05 00:18:29,365 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 87) HHH000126: Indexes: [primary]
+2016-12-05 00:18:29,365 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 87) HHH000232: Schema update complete
+2016-12-05 00:18:29,585 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-3) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:18:29,667 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-7) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:18:30,131 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-7) Running on PrimeFaces 6.0
+2016-12-05 00:18:30,147 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-7) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:18:30,152 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:18:30,300 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:18:34,014 INFO  [stdout] (default task-16) Jestem w UserController -> postConstruct()
+2016-12-05 00:18:36,868 INFO  [stdout] (default task-17) userName = mat
+2016-12-05 00:21:10,495 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:21:10,510 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:21:10,512 INFO  [org.jboss.weld.deployer] (MSC service thread 1-10) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:21:10,517 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:21:10,520 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:21:10,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 27ms
+2016-12-05 00:21:10,768 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 275ms
+2016-12-05 00:21:10,769 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 275ms
+2016-12-05 00:21:10,770 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:21:10,789 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:21:10,789 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:21:10,961 INFO  [org.jboss.as.jpa] (MSC service thread 1-14) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:21:11,000 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-15) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:21:11,001 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:21:11,001 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 94) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:21:11,024 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:21:11,039 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:21:11,040 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:21:11,041 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:21:11,043 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:21:11,048 INFO  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:21:11,050 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:21:11,067 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:21:11,071 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 94) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:21:11,076 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 94) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:21:11,100 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 94) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:21:11,100 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 94) HHH000102: Fetching database metadata
+2016-12-05 00:21:11,101 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 94) HHH000396: Updating schema
+2016-12-05 00:21:11,109 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:21:11,109 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:21:11,109 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000108: Foreign keys: []
+2016-12-05 00:21:11,109 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:21:11,118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000261: Table found: inzynierka.user
+2016-12-05 00:21:11,118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:21:11,118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000108: Foreign keys: []
+2016-12-05 00:21:11,118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 94) HHH000126: Indexes: [primary]
+2016-12-05 00:21:11,119 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 94) HHH000232: Schema update complete
+2016-12-05 00:21:11,324 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-16) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:21:11,391 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-10) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:21:11,888 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-10) Running on PrimeFaces 6.0
+2016-12-05 00:21:11,902 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-10) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:21:11,907 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:21:12,032 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:21:12,130 INFO  [stdout] (default task-92) Jestem w UserController -> postConstruct()
+2016-12-05 00:21:17,935 INFO  [stdout] (default task-107) userName = mat
+2016-12-05 00:23:12,200 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:23:12,216 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:23:12,219 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:23:12,223 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:23:12,226 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:23:12,230 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 32ms
+2016-12-05 00:23:12,443 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 245ms
+2016-12-05 00:23:12,445 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 246ms
+2016-12-05 00:23:12,446 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:23:12,477 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:23:12,477 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:23:12,638 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:23:12,677 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:23:12,679 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:23:12,679 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 99) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:23:12,702 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:23:12,717 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:23:12,718 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:23:12,718 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:23:12,723 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:23:12,728 INFO  [org.jboss.weld.deployer] (MSC service thread 1-11) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:23:12,730 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:23:12,746 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 99) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:23:12,751 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 99) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:23:12,758 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 99) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:23:12,783 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 99) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:23:12,783 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 99) HHH000102: Fetching database metadata
+2016-12-05 00:23:12,783 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 99) HHH000396: Updating schema
+2016-12-05 00:23:12,791 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:23:12,791 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:23:12,791 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000108: Foreign keys: []
+2016-12-05 00:23:12,792 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:23:12,802 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000261: Table found: inzynierka.user
+2016-12-05 00:23:12,802 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:23:12,803 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000108: Foreign keys: []
+2016-12-05 00:23:12,803 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 99) HHH000126: Indexes: [primary]
+2016-12-05 00:23:12,803 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 99) HHH000232: Schema update complete
+2016-12-05 00:23:12,967 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-12) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:23:13,037 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-13) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:23:13,668 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-13) Running on PrimeFaces 6.0
+2016-12-05 00:23:13,691 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-13) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:23:13,698 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:23:14,488 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:23:46,424 INFO  [stdout] (default task-80) Jestem w UserController -> postConstruct()
+2016-12-05 00:23:49,710 INFO  [stdout] (default task-91) userName = mat
+2016-12-05 00:24:44,618 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:24:44,629 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:24:44,632 INFO  [org.jboss.weld.deployer] (MSC service thread 1-14) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:24:44,634 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:24:44,636 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:24:44,637 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 20ms
+2016-12-05 00:24:44,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 168ms
+2016-12-05 00:24:44,787 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 170ms
+2016-12-05 00:24:44,787 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:24:44,804 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:24:44,804 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:24:44,998 INFO  [org.jboss.as.jpa] (MSC service thread 1-15) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:24:45,031 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:24:45,032 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:24:45,032 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 107) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:24:45,055 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:24:45,069 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:24:45,070 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:24:45,070 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:24:45,074 INFO  [org.jboss.weld.deployer] (MSC service thread 1-16) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:24:45,078 INFO  [org.jboss.weld.deployer] (MSC service thread 1-16) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:24:45,080 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:24:45,093 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 107) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:24:45,096 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 107) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:24:45,102 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 107) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:24:45,123 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 107) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:24:45,123 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 107) HHH000102: Fetching database metadata
+2016-12-05 00:24:45,123 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 107) HHH000396: Updating schema
+2016-12-05 00:24:45,132 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:24:45,132 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:24:45,132 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000108: Foreign keys: []
+2016-12-05 00:24:45,132 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:24:45,139 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000261: Table found: inzynierka.user
+2016-12-05 00:24:45,139 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:24:45,139 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000108: Foreign keys: []
+2016-12-05 00:24:45,139 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 107) HHH000126: Indexes: [primary]
+2016-12-05 00:24:45,140 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 107) HHH000232: Schema update complete
+2016-12-05 00:24:45,324 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-16) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:24:45,378 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-13) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:24:45,802 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-13) Running on PrimeFaces 6.0
+2016-12-05 00:24:45,816 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-13) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:24:45,821 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:24:46,009 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "inzynierka-ear.ear" with deployment "inzynierka-ear.ear"
+2016-12-05 00:24:48,462 INFO  [stdout] (default task-36) Jestem w UserController -> postConstruct()
+2016-12-05 00:24:53,641 INFO  [stdout] (default task-54) userName = mat
+2016-12-05 00:27:21,130 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-13) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:27:21,140 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 114) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:27:21,143 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:27:21,147 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 114) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:27:21,149 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:27:21,151 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 22ms
+2016-12-05 00:27:21,352 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 224ms
+2016-12-05 00:27:21,353 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 224ms
+2016-12-05 00:27:21,504 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:27:26,543 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found inzynierka-ear.ear in deployment directory. To trigger deployment create a file called inzynierka-ear.ear.dodeploy
+2016-12-05 00:27:26,552 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:27:26,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:27:26,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:27:26,738 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:27:26,775 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:27:26,776 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 114) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:27:26,776 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 114) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:27:26,808 INFO  [org.jboss.weld.deployer] (MSC service thread 1-14) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:27:26,825 INFO  [org.jboss.weld.deployer] (MSC service thread 1-11) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:27:26,826 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-11) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:27:26,826 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-11) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:27:26,830 INFO  [org.jboss.weld.deployer] (MSC service thread 1-15) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:27:26,834 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:27:26,837 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:27:26,854 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 114) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:27:26,862 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 114) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:27:26,868 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 114) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:27:26,893 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 114) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:27:26,893 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 114) HHH000102: Fetching database metadata
+2016-12-05 00:27:26,894 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 114) HHH000396: Updating schema
+2016-12-05 00:27:26,901 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:27:26,901 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:27:26,901 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000108: Foreign keys: []
+2016-12-05 00:27:26,901 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:27:26,912 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000261: Table found: inzynierka.user
+2016-12-05 00:27:26,912 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:27:26,912 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000108: Foreign keys: []
+2016-12-05 00:27:26,912 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 114) HHH000126: Indexes: [primary]
+2016-12-05 00:27:26,913 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 114) HHH000232: Schema update complete
+2016-12-05 00:27:27,123 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-5) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:27:27,180 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-11) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:27:28,225 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-11) Running on PrimeFaces 6.0
+2016-12-05 00:27:28,239 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-11) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:27:28,246 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:27:28,366 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "inzynierka-ear.ear" (runtime-name : "inzynierka-ear.ear")
+2016-12-05 00:27:38,760 INFO  [stdout] (default task-112) Jestem w UserController -> postConstruct()
+2016-12-05 00:27:41,285 INFO  [stdout] (default task-121) userName = mat
+2016-12-05 00:29:33,490 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:29:33,505 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 122) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:29:33,508 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:29:33,511 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 122) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:29:33,513 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-10) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:29:33,516 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 26ms
+2016-12-05 00:29:33,710 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 220ms
+2016-12-05 00:29:33,711 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 221ms
+2016-12-05 00:29:33,853 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:29:38,885 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found inzynierka-ear.ear in deployment directory. To trigger deployment create a file called inzynierka-ear.ear.dodeploy
+2016-12-05 00:29:38,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:29:38,905 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:29:38,905 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:29:39,067 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:29:39,102 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-13) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:29:39,103 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 122) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:29:39,103 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 122) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:29:39,127 INFO  [org.jboss.weld.deployer] (MSC service thread 1-10) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:29:39,143 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:29:39,144 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:29:39,144 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:29:39,151 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:29:39,159 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:29:39,162 INFO  [org.jboss.weld.deployer] (MSC service thread 1-12) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:29:39,177 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 122) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:29:39,183 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 122) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:29:39,189 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 122) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:29:39,206 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 122) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:29:39,207 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 122) HHH000102: Fetching database metadata
+2016-12-05 00:29:39,207 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 122) HHH000396: Updating schema
+2016-12-05 00:29:39,214 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:29:39,214 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:29:39,214 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000108: Foreign keys: []
+2016-12-05 00:29:39,214 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:29:39,220 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000261: Table found: inzynierka.user
+2016-12-05 00:29:39,220 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:29:39,221 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000108: Foreign keys: []
+2016-12-05 00:29:39,221 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 122) HHH000126: Indexes: [primary]
+2016-12-05 00:29:39,221 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 122) HHH000232: Schema update complete
+2016-12-05 00:29:39,380 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-13) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:29:39,432 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-5) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:29:40,761 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-5) Running on PrimeFaces 6.0
+2016-12-05 00:29:40,777 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-5) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:29:40,785 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:29:40,955 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "inzynierka-ear.ear" (runtime-name : "inzynierka-ear.ear")
+2016-12-05 00:29:41,098 INFO  [stdout] (default task-103) Jestem w UserController -> postConstruct()
+2016-12-05 00:29:43,998 INFO  [stdout] (default task-128) userName = mat
+2016-12-05 00:30:00,982 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /inzynierka-web
+2016-12-05 00:30:01,008 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:30:01,014 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2016-12-05 00:30:01,019 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:30:01,021 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:30:01,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 42ms
+2016-12-05 00:30:01,177 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 197ms
+2016-12-05 00:30:01,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 197ms
+2016-12-05 00:30:01,412 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:30:06,451 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found inzynierka-ear.ear in deployment directory. To trigger deployment create a file called inzynierka-ear.ear.dodeploy
+2016-12-05 00:30:06,457 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2016-12-05 00:30:06,470 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2016-12-05 00:30:06,470 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2016-12-05 00:30:06,618 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for primary
+2016-12-05 00:30:06,656 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2016-12-05 00:30:06,657 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:30:06,657 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 127) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2016-12-05 00:30:06,731 INFO  [org.jboss.weld.deployer] (MSC service thread 1-10) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2016-12-05 00:30:06,757 INFO  [org.jboss.weld.deployer] (MSC service thread 1-10) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2016-12-05 00:30:06,758 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-10) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2016-12-05 00:30:06,758 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-10) JNDI bindings for session bean named UserRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:app/inzynierka-ejb/UserRegistration!salasa.service.UserRegistration
+	java:module/UserRegistration!salasa.service.UserRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/UserRegistration
+	java:app/inzynierka-ejb/UserRegistration
+	java:module/UserRegistration
+
+2016-12-05 00:30:06,761 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment inzynierka-web.war
+2016-12-05 00:30:06,765 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2016-12-05 00:30:06,767 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2016-12-05 00:30:06,781 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 127) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2016-12-05 00:30:06,784 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 127) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-05 00:30:06,788 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 127) HHH000397: Using ASTQueryTranslatorFactory
+2016-12-05 00:30:06,809 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 127) HHH000228: Running hbm2ddl schema update
+2016-12-05 00:30:06,809 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 127) HHH000102: Fetching database metadata
+2016-12-05 00:30:06,809 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 127) HHH000396: Updating schema
+2016-12-05 00:30:06,815 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000261: Table found: inzynierka.registrant
+2016-12-05 00:30:06,815 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000037: Columns: [name, phone_number, id, email]
+2016-12-05 00:30:06,815 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000108: Foreign keys: []
+2016-12-05 00:30:06,815 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2016-12-05 00:30:06,823 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000261: Table found: inzynierka.user
+2016-12-05 00:30:06,824 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2016-12-05 00:30:06,824 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000108: Foreign keys: []
+2016-12-05 00:30:06,824 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 127) HHH000126: Indexes: [primary]
+2016-12-05 00:30:06,824 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 127) HHH000232: Schema update complete
+2016-12-05 00:30:06,996 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-3) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2016-12-05 00:30:07,072 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-14) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2016-12-05 00:30:07,566 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-14) Running on PrimeFaces 6.0
+2016-12-05 00:30:07,579 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-14) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2016-12-05 00:30:07,584 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017534: Registered web context: /inzynierka-web
+2016-12-05 00:30:07,694 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "inzynierka-ear.ear" (runtime-name : "inzynierka-ear.ear")
+2016-12-05 00:30:11,194 INFO  [stdout] (default task-39) Jestem w UserController -> postConstruct()
+2016-12-05 00:30:13,414 INFO  [stdout] (default task-34) userName = mat
+2016-12-05 00:31:27,912 INFO  [stdout] (default task-70) jestem w logout
+2016-12-05 00:31:27,938 INFO  [stdout] (default task-69) Jestem w UserController -> postConstruct()

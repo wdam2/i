@@ -1,0 +1,10 @@
+1481547317503	Move 'messages.xhtml' to 'webapp'
+1481550180614	Rename compilation unit 'ChatResources.java'
+1481726355044	Delete element
+1481739386966	Copy file
+1481754432402	Extract local variable 'globalCounterView'
+1481830302251	Extract local variable 'activeWebsocketUsers'
+1481837681485	Extract local variable 'findAllUserMessages'
+1481845628757	Encapsulate field 'user'
+1481984362381	Delete element
+1481995497296	Extract local variable 'findNumberOfNewMessagesFromUser'

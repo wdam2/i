@@ -1,0 +1,9 @@
+1483962691202	Delete element
+1483962703066	Delete element
+1483962770098	Delete element
+1483962806139	Delete element
+1483962841280	Delete element
+1483964232203	Extract local variable 'resultList'
+1483964397618	Extract local variable 'createNamedQuery'
+1483967355568	Extract local variable 'quey'
+1483967554974	Infer generic type arguments

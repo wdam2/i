@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    JBoss, Home of Professional Open Source
+    Copyright 2013, Red Hat, Inc. and/or its affiliates, and individual
+    contributors by the @authors tag. See the copyright.txt in the
+    distribution for a full listing of individual contributors.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	template="/WEB-INF/templates/template.xhtml">
+	<ui:define name="content">
+
+		<div class="container" style="margin-top: 40px">
+			<div class="row">
+				<div class="col-sm-12 col-centered text-center">
+
+					<legend>
+						<span class="glyphicon glyphicon-globe"></span> Dane teleadresowe:
+					</legend>
+
+				<address>
+					<strong>Kancelaria Radcy Prawnego</strong> Imię Nazwisko<br/>
+					Czarnowiejska 12/30<br/>
+					31-105 Kraków<br/>
+					NIP: 612-23-23-787<br/><br/>
+					Telefon: +48 798 967 770<br/>
+					E-mail: <a href="mailto:#">biuro@krp.pl</a>
+				</address>
+				
+
+				</div>
+			</div>
+			<hr />
+
+		</div>
+
+		<h:outputScript library="js" name="jquery.js" />
+	</ui:define>
+</ui:composition>

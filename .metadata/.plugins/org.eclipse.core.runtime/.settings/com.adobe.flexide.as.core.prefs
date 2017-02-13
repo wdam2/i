@@ -1,0 +1,17 @@
+asASDocBold=false
+asBracketBold=false
+asClassBold=true
+asClassStrikethrough=false
+asClassUnderline=false
+asCommentBold=false
+asCommentItalic=true
+asFunctionBold=false
+asInterfaceBold=true
+asMetadataBold=false
+asOperatorBold=false
+asPackageBold=true
+asReservedBold=true
+asStringBold=false
+asTraceBold=false
+asVarBold=false
+eclipse.preferences.version=1

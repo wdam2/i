@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.eclipse.jst.jsf.core.CANNOT_APPLY_OPERATOR_TO_METHOD_BINDING=error
+org.eclipse.jst.jsf.core.INCOMPATIBLE_METHOD_TYPES=warning
+org.eclipse.jst.jsf.core.INCOMPATIBLE_TYPES=warning
+org.eclipse.jst.jsf.core.METHOD_EXPRESSION_EXPECTED=ignore
+org.eclipse.jst.jsf.core.MISSING_CLOSING_EXPR_BRACKET=error
+org.eclipse.jst.jsf.core.VALUE_EXPRESSION_EXPECTED=ignore

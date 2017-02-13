@@ -1,0 +1,687 @@
+2017-01-06 00:03:49,647 WARN  [org.atmosphere.cpr.DefaultBroadcaster] (default task-102) Duplicate resource 18c3e30a-5790-4da1-8560-781f1f80fb82. Could be caused by a dead connection not detected by your server. Replacing the old one with the fresh one
+2017-01-06 00:03:49,754 ERROR [org.atmosphere.container.JSR356Endpoint] (default I/O-11) : java.nio.channels.ClosedChannelException
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.receive(AbstractFramedChannel.java:260)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:20)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:15)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.2.2.Final.jar:3.2.2.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:632)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:618)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.2.2.Final.jar:3.2.2.Final]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66) [xnio-api-3.2.2.Final.jar:3.2.2.Final]
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:87) [xnio-nio-3.2.2.Final.jar:3.2.2.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:539) [xnio-nio-3.2.2.Final.jar:3.2.2.Final]
+
+2017-01-06 00:03:49,758 INFO  [salasa.websocket.MessageSocket] (default task-104) OnClose RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=18c3e30a-5790-4da1-8560-781f1f80fb82 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=CLOSED_BY_CLIENT}}
+2017-01-06 00:03:49,850 INFO  [salasa.websocket.MessageSocket] (default task-103) OnOpen RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=18c3e30a-5790-4da1-8560-781f1f80fb82 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=OPEN}}
+2017-01-06 00:03:49,997 ERROR [org.atmosphere.container.JSR356Endpoint] (default I/O-12) : java.nio.channels.ClosedChannelException
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.receive(AbstractFramedChannel.java:260)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:20)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:15)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.2.2.Final.jar:3.2.2.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:632)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:618)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.2.2.Final.jar:3.2.2.Final]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66) [xnio-api-3.2.2.Final.jar:3.2.2.Final]
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:87) [xnio-nio-3.2.2.Final.jar:3.2.2.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:539) [xnio-nio-3.2.2.Final.jar:3.2.2.Final]
+
+2017-01-06 00:03:50,372 INFO  [salasa.websocket.MessageSocket] (Atmosphere-Scheduler-1535) OnClose RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=18c3e30a-5790-4da1-8560-781f1f80fb82 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=UNEXPECTED_CLOSE}}
+2017-01-06 00:03:50,372 INFO  [salasa.websocket.MessageSocket] (Atmosphere-Scheduler-1531) OnClose RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=18c3e30a-5790-4da1-8560-781f1f80fb82 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=UNEXPECTED_CLOSE}}
+2017-01-06 20:20:24,171 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-01-06 20:20:24,462 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-01-06 20:20:24,533 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-01-06 20:20:24,539 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Java\jdk1.8.0_20\jre\lib\endorsed
+	java.ext.dirs = C:\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Java\jdk1.8.0_20\jre
+	java.io.tmpdir = C:\Users\mateusz\AppData\Local\Temp\
+	java.library.path = C:\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Java/jdk1.8.0_20/jre/bin/server;C:/Java/jdk1.8.0_20/jre/bin;C:/Java/jdk1.8.0_20/jre/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\OpenVPN\bin;C:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\GTK2-Runtime\bin;C:\GNAT\2015\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\switch;C:\Users\mateusz\AppData\Roaming\cabal\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\git-2.4.0.1\cmd;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\git-2.4.0.1\usr\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\ghc-7.8.4\mingw\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\ghc-7.8.4\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\bin;C:\Users\mateusz\AppData\Local\atom\bin;C:\Users\mateusz\AppData\Local\Android\android-sdk\build-tools;C:\Users\mateusz\AppData\Local\Android\android-sdk\platform-tools;C:\Users\mateusz\AppData\Local\Android\android-sdk\tools;C:\Program Files\erl7.1\bin;C:\jboss-as-7.1.1.Final\bin;C:\Java\jdk1.8.0_20\bin;C:\apache-maven-3.3.9\bin;C:\eclipseEE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_20-b26
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_20
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.20-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final
+	jboss.host.name = mateusz
+	jboss.modules.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mateusz
+	jboss.qualified.host.name = mateusz
+	jboss.server.base.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = mateusz
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8
+	os.version = 6.2
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Java\jdk1.8.0_20\jre\classes
+	sun.boot.library.path = C:\Java\jdk1.8.0_20\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = PL
+	user.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\mateusz
+	user.language = pl
+	user.name = mateusz
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2017-01-06 20:20:24,540 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2017-01-06 20:20:26,036 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found inzynierka-ear.ear in deployment directory. To trigger deployment create a file called inzynierka-ear.ear.dodeploy
+2017-01-06 20:20:26,050 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2017-01-06 20:20:26,065 INFO  [org.xnio] (MSC service thread 1-15) XNIO version 3.2.2.Final
+2017-01-06 20:20:26,074 INFO  [org.xnio.nio] (MSC service thread 1-15) XNIO NIO Implementation Version 3.2.2.Final
+2017-01-06 20:20:26,097 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2017-01-06 20:20:26,101 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2017-01-06 20:20:26,103 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2017-01-06 20:20:26,105 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-01-06 20:20:26,111 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2017-01-06 20:20:26,113 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-01-06 20:20:26,121 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2017-01-06 20:20:26,125 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2017-01-06 20:20:26,179 INFO  [org.jboss.as.security] (MSC service thread 1-11) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-01-06 20:20:26,198 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-13) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-01-06 20:20:26,221 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017502: Undertow 1.0.15.Final starting
+2017-01-06 20:20:26,222 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.0.15.Final starting
+2017-01-06 20:20:26,265 INFO  [org.jboss.as.naming] (MSC service thread 1-11) JBAS011802: Starting Naming Service
+2017-01-06 20:20:26,265 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-01-06 20:20:26,269 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-9) JBAS010417: Started Driver service with driver-name = h2
+2017-01-06 20:20:26,281 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-01-06 20:20:26,418 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2017-01-06 20:20:26,421 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010417: Started Driver service with driver-name = mysqlDriver
+2017-01-06 20:20:26,525 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final/welcome-content
+2017-01-06 20:20:26,548 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017525: Started server default-server.
+2017-01-06 20:20:26,555 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017531: Host default-host starting
+2017-01-06 20:20:26,583 INFO  [org.jboss.remoting] (MSC service thread 1-15) JBoss Remoting version 4.0.3.Final
+2017-01-06 20:20:26,688 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments
+2017-01-06 20:20:26,691 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2017-01-06 20:20:26,804 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2017-01-06 20:20:26,804 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2017-01-06 20:20:27,241 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2017-01-06 20:20:32,961 WARN  [jacorb.codeset] (MSC service thread 1-6) Warning - unknown codeset (Cp1250) - defaulting to ISO-8859-1
+2017-01-06 20:20:34,057 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-01-06 20:20:34,057 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010400: Bound data source [java:/mysql]
+2017-01-06 20:20:34,297 WARN  [org.jboss.as.messaging] (MSC service thread 1-8) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+2017-01-06 20:20:34,430 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016330: CORBA ORB Service started
+2017-01-06 20:20:36,412 INFO  [org.jboss.as.jacorb] (MSC service thread 1-13) JBAS016328: CORBA Naming Service started
+2017-01-06 20:20:36,855 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messagingjournal,bindingsDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\messagingpaging)
+2017-01-06 20:20:36,859 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2017-01-06 20:20:37,655 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221013: Using NIO Journal
+2017-01-06 20:20:38,060 INFO  [org.jboss.as.jpa] (MSC service thread 1-11) JBAS011401: Read persistence.xml for primary
+2017-01-06 20:20:38,272 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2017-01-06 20:20:38,696 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2017-01-06 20:20:39,061 INFO  [org.jboss.ws.common.management] (MSC service thread 1-14) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-01-06 20:20:39,182 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2017-01-06 20:20:39,238 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2017-01-06 20:20:39,281 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2017-01-06 20:20:39,690 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2017-01-06 20:20:39,691 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2017-01-06 20:20:39,737 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:20:40,035 INFO  [org.jboss.weld.deployer] (MSC service thread 1-12) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2017-01-06 20:20:40,537 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 57) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2017-01-06 20:20:41,838 INFO  [org.jboss.messaging] (MSC service thread 1-16) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2017-01-06 20:20:41,839 INFO  [org.jboss.messaging] (MSC service thread 1-6) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-01-06 20:20:42,498 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-12) HV000001: Hibernate Validator 5.1.0.Final
+2017-01-06 20:20:44,142 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 57) HHH000412: Hibernate Core {4.3.5.Final}
+2017-01-06 20:20:44,172 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000206: hibernate.properties not found
+2017-01-06 20:20:44,273 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 57) HHH000021: Bytecode provider name : javassist
+2017-01-06 20:20:44,387 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2017-01-06 20:20:44,388 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.1.Final (Fast Hornet, 124) [cd573558-b0c1-11e6-a465-a9f2e63caccd] 
+2017-01-06 20:20:46,123 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-01-06 20:20:46,125 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.DLQ
+2017-01-06 20:20:46,130 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2017-01-06 20:20:46,131 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-01-06 20:20:46,131 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2017-01-06 20:20:46,134 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2017-01-06 20:20:46,864 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) JBAS010406: Registered connection factory java:/JmsXA
+2017-01-06 20:20:48,444 INFO  [org.hornetq.ra] (MSC service thread 1-8) HornetQ resource adaptor started
+2017-01-06 20:20:48,445 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2017-01-06 20:20:48,447 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-01-06 20:20:48,447 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-16) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-01-06 20:20:50,712 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment inzynierka-web.war
+2017-01-06 20:20:51,264 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2017-01-06 20:20:51,780 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named UserService in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserService!salasa.service.UserService
+	java:app/inzynierka-ejb/UserService!salasa.service.UserService
+	java:module/UserService!salasa.service.UserService
+	java:global/inzynierka-ear/inzynierka-ejb/UserService
+	java:app/inzynierka-ejb/UserService
+	java:module/UserService
+
+2017-01-06 20:20:51,781 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named EventService in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/EventService!salasa.service.EventService
+	java:app/inzynierka-ejb/EventService!salasa.service.EventService
+	java:module/EventService!salasa.service.EventService
+	java:global/inzynierka-ear/inzynierka-ejb/EventService
+	java:app/inzynierka-ejb/EventService
+	java:module/EventService
+
+2017-01-06 20:20:51,782 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2017-01-06 20:20:51,782 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named MessageService in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MessageService!salasa.service.MessageService
+	java:app/inzynierka-ejb/MessageService!salasa.service.MessageService
+	java:module/MessageService!salasa.service.MessageService
+	java:global/inzynierka-ear/inzynierka-ejb/MessageService
+	java:app/inzynierka-ejb/MessageService
+	java:module/MessageService
+
+2017-01-06 20:20:52,726 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2017-01-06 20:20:55,443 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.1.2 (Final)
+2017-01-06 20:20:55,581 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2017-01-06 20:21:02,984 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:21:08,540 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 57) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-01-06 20:21:14,606 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 57) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-06 20:21:15,469 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 57) HHH000397: Using ASTQueryTranslatorFactory
+2017-01-06 20:21:19,885 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000228: Running hbm2ddl schema update
+2017-01-06 20:21:19,885 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000102: Fetching database metadata
+2017-01-06 20:21:19,889 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000396: Updating schema
+2017-01-06 20:21:19,916 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000261: Table found: inzynierka.event
+2017-01-06 20:21:19,917 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000037: Columns: [createdfor, enddate, createdby, description, id, startdate, title]
+2017-01-06 20:21:19,917 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000108: Foreign keys: [fk_a8ihj2wptqooexnudryi6s4iq, fk_9q2fg3yt5o8isd5xe4t61q4qq]
+2017-01-06 20:21:19,917 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000126: Indexes: [fk_a8ihj2wptqooexnudryi6s4iq, fk_9q2fg3yt5o8isd5xe4t61q4qq, primary]
+2017-01-06 20:21:19,926 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000261: Table found: inzynierka.message
+2017-01-06 20:21:19,927 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000037: Columns: [sendfrom, sendto, postdate, received, id, message]
+2017-01-06 20:21:19,927 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000108: Foreign keys: [fk_9vsmkdjuraxjpwydn22cnbxe7, fk_rv9ebb894uolipg43ftw7jmwm]
+2017-01-06 20:21:19,927 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000126: Indexes: [fk_9vsmkdjuraxjpwydn22cnbxe7, fk_rv9ebb894uolipg43ftw7jmwm, primary]
+2017-01-06 20:21:19,928 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Registrant
+2017-01-06 20:21:19,935 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000261: Table found: inzynierka.user
+2017-01-06 20:21:19,935 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2017-01-06 20:21:19,936 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000108: Foreign keys: []
+2017-01-06 20:21:19,936 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 57) HHH000126: Indexes: [primary]
+2017-01-06 20:21:19,937 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Registrant
+2017-01-06 20:21:19,939 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 57) HHH000262: Table not found: Registrant
+2017-01-06 20:21:21,033 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 57) HHH000232: Schema update complete
+2017-01-06 20:21:25,385 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-2) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2017-01-06 20:21:26,687 INFO  [io.undertow.servlet] (MSC service thread 1-16) Initializing AtmosphereFramework
+2017-01-06 20:21:26,697 INFO  [org.atmosphere.util.IOUtils] (MSC service thread 1-16) Successfully loaded and installed META-INF/services/org.atmosphere.cpr.AtmosphereFramework
+2017-01-06 20:21:30,145 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-16) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-01-06 20:21:30,335 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+2017-01-06 20:21:30,337 INFO  [org.atmosphere.cpr.DefaultAnnotationProcessor] (MSC service thread 1-16) AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$ServletContainerInitializerAnnotationProcessor being used
+2017-01-06 20:21:30,338 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class org.primefaces.push.impl.PushEndpointProcessor being scanned: interface org.atmosphere.config.AtmosphereAnnotation
+2017-01-06 20:21:30,338 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class org.primefaces.push.impl.PushEndpointMapper being scanned: interface org.atmosphere.config.service.EndpointMapperService
+2017-01-06 20:21:30,340 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class org.primefaces.push.impl.PushEndpointInterceptor being scanned: interface org.atmosphere.config.service.AtmosphereInterceptorService
+2017-01-06 20:21:30,363 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.counter.CounterResource being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:21:30,446 INFO  [org.atmosphere.util.ForkJoinPool] (MSC service thread 1-16) Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2017-01-06 20:21:30,451 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /counter and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:21:30,451 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:21:30,455 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.websocket.CalendarSocket being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:21:30,458 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /calendar and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:21:30,459 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:21:30,459 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.websocket.MessageSocket being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:21:30,461 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /messages/{user} and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:21:30,461 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:21:30,462 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.websocket.NewMessageSocket being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:21:30,464 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /{user} and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:21:30,464 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:21:30,465 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Auto detecting WebSocketHandler in /WEB-INF/classes/
+2017-01-06 20:21:30,485 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2017-01-06 20:21:30,490 INFO  [org.atmosphere.container.JSR356AsyncSupport] (MSC service thread 1-16) JSR 356 Mapping path /primepush
+2017-01-06 20:21:30,511 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush
+2017-01-06 20:21:30,571 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}
+2017-01-06 20:21:30,571 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}/{path1}
+2017-01-06 20:21:30,571 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}/{path1}/{path2}
+2017-01-06 20:21:30,572 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}/{path1}/{path2}/{path3}
+2017-01-06 20:21:30,572 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installing Default AtmosphereInterceptors
+2017-01-06 20:21:30,572 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2017-01-06 20:21:30,573 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2017-01-06 20:21:30,574 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2017-01-06 20:21:30,574 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2017-01-06 20:21:30,577 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+2017-01-06 20:21:30,577 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2017-01-06 20:21:30,578 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2017-01-06 20:21:30,579 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2017-01-06 20:21:30,579 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2017-01-06 20:21:30,579 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2017-01-06 20:21:30,580 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2017-01-06 20:21:30,580 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2017-01-06 20:21:30,580 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Atmosphere LifeCycle with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,580 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2017-01-06 20:21:30,580 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor @PushEndpoint Interceptor with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,580 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2017-01-06 20:21:30,581 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,581 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,581 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,581 INFO  [org.atmosphere.interceptor.HeartbeatInterceptor] (MSC service thread 1-16) HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+2017-01-06 20:21:30,581 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,581 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,582 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,582 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,582 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,582 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2017-01-06 20:21:30,583 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2017-01-06 20:21:30,584 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using EndpointMapper class org.primefaces.push.impl.PushEndpointMapper
+2017-01-06 20:21:30,585 WARN  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+2017-01-06 20:21:30,585 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:21:30,585 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Broadcaster Shared List Resources: false
+2017-01-06 20:21:30,585 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Broadcaster Polling Wait Time 100
+2017-01-06 20:21:30,586 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Shared ExecutorService supported: true
+2017-01-06 20:21:30,586 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2017-01-06 20:21:30,586 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Async I/O Thread Pool Size: 200
+2017-01-06 20:21:30,586 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2017-01-06 20:21:30,586 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2017-01-06 20:21:30,587 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2017-01-06 20:21:30,592 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Invoke AtmosphereInterceptor on WebSocket message true
+2017-01-06 20:21:30,592 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) HttpSession supported: false
+2017-01-06 20:21:30,593 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2017-01-06 20:21:30,593 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: WildFly 8.1.0.Final - 1.0.15.Final using javax.servlet/3.0 and jsr356/WebSocket API
+2017-01-06 20:21:30,594 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere Framework 2.4.0 started.
+2017-01-06 20:21:30,594 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+2017-01-06 20:21:30,652 SEVERE [javax.faces] (MSC service thread 1-16) Unable to obtain InjectionProvider from init time FacesContext. Does this container implement the Mojarra Injection SPI?
+2017-01-06 20:21:30,653 SEVERE [javax.faces] (MSC service thread 1-16) Application was not properly initialized at startup, could not find Factory: javax.faces.context.FacesContextFactory. Attempting to find backup.
+2017-01-06 20:21:30,653 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-16) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./inzynierka-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./inzynierka-web: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1904) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_20]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_20]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_20]
+Caused by: java.lang.IllegalStateException: Could not find backup for factory javax.faces.context.FacesContextFactory. 
+	at javax.faces.FactoryFinder$FactoryManager.getFactory(FactoryFinder.java:1135)
+	at javax.faces.FactoryFinder.getFactory(FactoryFinder.java:379)
+	at javax.faces.webapp.FacesServlet.init(FacesServlet.java:350)
+	at io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:214)
+	at io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:119)
+	at io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:505)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:88)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.start(UndertowDeploymentService.java:72)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	... 3 more
+
+2017-01-06 20:21:30,662 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "inzynierka-ear.ear")]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.deployment.default-server.default-host./inzynierka-web" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./inzynierka-web: Failed to start service
+    Caused by: java.lang.IllegalStateException: Could not find backup for factory javax.faces.context.FacesContextFactory. "}}
+2017-01-06 20:21:30,698 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "inzynierka-ear.ear" (runtime-name : "inzynierka-ear.ear")
+2017-01-06 20:21:30,699 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./inzynierka-web: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./inzynierka-web: Failed to start service
+
+2017-01-06 20:21:30,929 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:21:30,933 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2017-01-06 20:21:31,105 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:21:31,106 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2017-01-06 20:21:31,284 INFO  [org.atmosphere.cpr.AtmosphereFramework] (Thread-106) Latest version of Atmosphere's JavaScript Client 2.3.1
+2017-01-06 20:21:31,285 INFO  [org.atmosphere.cpr.AtmosphereFramework] (Thread-106) 
+
+	Atmosphere Framework Updates:
+	Major Update available (new features): 2.4.8
+2017-01-06 20:21:31,482 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-10) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 568ms
+2017-01-06 20:21:31,563 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 650ms
+2017-01-06 20:21:31,564 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 651ms
+2017-01-06 20:21:32,243 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2017-01-06 20:21:32,245 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-ejb.jar".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."inzynierka-ear.ear".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."org.primefaces.push.PushServlet".START (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."inzynierka-ear.ear".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./inzynierka-web (missing) dependents: [service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./inzynierka-web
+
+2017-01-06 20:21:35,722 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found inzynierka-ear.ear in deployment directory. To trigger deployment create a file called inzynierka-ear.ear.dodeploy
+2017-01-06 20:21:37,887 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-01-06 20:21:37,888 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-01-06 20:21:37,888 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 74301ms - Started 225 of 273 services (92 services are lazy, passive or on-demand)
+2017-01-06 20:22:55,817 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-12) JBAS015876: Starting deployment of "inzynierka-ear.ear" (runtime-name: "inzynierka-ear.ear")
+2017-01-06 20:22:55,852 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-web.war")
+2017-01-06 20:22:55,852 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015973: Starting subdeployment (runtime-name: "inzynierka-ejb.jar")
+2017-01-06 20:22:56,075 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) JBAS011401: Read persistence.xml for primary
+2017-01-06 20:22:56,110 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:jboss/datasources/inzynierkaDS]
+2017-01-06 20:22:56,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:22:56,112 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 74) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2017-01-06 20:22:56,145 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment inzynierka-ear.ear
+2017-01-06 20:22:56,167 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment inzynierka-ejb.jar
+2017-01-06 20:22:56,168 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named UserService in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/UserService!salasa.service.UserService
+	java:app/inzynierka-ejb/UserService!salasa.service.UserService
+	java:module/UserService!salasa.service.UserService
+	java:global/inzynierka-ear/inzynierka-ejb/UserService
+	java:app/inzynierka-ejb/UserService
+	java:module/UserService
+
+2017-01-06 20:22:56,168 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named EventService in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/EventService!salasa.service.EventService
+	java:app/inzynierka-ejb/EventService!salasa.service.EventService
+	java:module/EventService!salasa.service.EventService
+	java:global/inzynierka-ear/inzynierka-ejb/EventService
+	java:app/inzynierka-ejb/EventService
+	java:module/EventService
+
+2017-01-06 20:22:56,168 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named MemberRegistration in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration!salasa.service.MemberRegistration
+	java:module/MemberRegistration!salasa.service.MemberRegistration
+	java:global/inzynierka-ear/inzynierka-ejb/MemberRegistration
+	java:app/inzynierka-ejb/MemberRegistration
+	java:module/MemberRegistration
+
+2017-01-06 20:22:56,169 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named MessageService in deployment unit subdeployment "inzynierka-ejb.jar" of deployment "inzynierka-ear.ear" are as follows:
+
+	java:global/inzynierka-ear/inzynierka-ejb/MessageService!salasa.service.MessageService
+	java:app/inzynierka-ejb/MessageService!salasa.service.MessageService
+	java:module/MessageService!salasa.service.MessageService
+	java:global/inzynierka-ear/inzynierka-ejb/MessageService
+	java:app/inzynierka-ejb/MessageService
+	java:module/MessageService
+
+2017-01-06 20:22:56,171 INFO  [org.jboss.weld.deployer] (MSC service thread 1-13) JBAS016002: Processing weld deployment inzynierka-web.war
+2017-01-06 20:22:56,176 INFO  [org.jboss.weld.deployer] (MSC service thread 1-11) JBAS016005: Starting Services for CDI deployment: inzynierka-ear.ear
+2017-01-06 20:22:56,179 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016008: Starting weld service for deployment inzynierka-ear.ear
+2017-01-06 20:22:56,210 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:22:56,217 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 74) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-01-06 20:22:56,229 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 74) HHH000397: Using ASTQueryTranslatorFactory
+2017-01-06 20:22:56,294 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 74) HHH000228: Running hbm2ddl schema update
+2017-01-06 20:22:56,295 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 74) HHH000102: Fetching database metadata
+2017-01-06 20:22:56,295 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 74) HHH000396: Updating schema
+2017-01-06 20:22:56,940 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000261: Table found: inzynierka.event
+2017-01-06 20:22:56,941 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000037: Columns: [createdfor, enddate, createdby, description, id, startdate, title]
+2017-01-06 20:22:56,941 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000108: Foreign keys: [fk_a8ihj2wptqooexnudryi6s4iq, fk_9q2fg3yt5o8isd5xe4t61q4qq]
+2017-01-06 20:22:56,941 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000126: Indexes: [fk_a8ihj2wptqooexnudryi6s4iq, fk_9q2fg3yt5o8isd5xe4t61q4qq, primary]
+2017-01-06 20:22:56,949 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000261: Table found: inzynierka.message
+2017-01-06 20:22:56,949 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000037: Columns: [sendfrom, sendto, postdate, received, id, message]
+2017-01-06 20:22:56,949 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000108: Foreign keys: [fk_9vsmkdjuraxjpwydn22cnbxe7, fk_rv9ebb894uolipg43ftw7jmwm]
+2017-01-06 20:22:56,949 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000126: Indexes: [fk_9vsmkdjuraxjpwydn22cnbxe7, fk_rv9ebb894uolipg43ftw7jmwm, primary]
+2017-01-06 20:22:56,957 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000261: Table found: inzynierka.registrant
+2017-01-06 20:22:56,957 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000037: Columns: [name, phone_number, id, email]
+2017-01-06 20:22:56,957 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000108: Foreign keys: []
+2017-01-06 20:22:56,957 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000126: Indexes: [uk_it677o4jaydleb048j9oub9mk, primary]
+2017-01-06 20:22:56,965 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000261: Table found: inzynierka.user
+2017-01-06 20:22:56,966 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000037: Columns: [firstname, password, role, homephone, mobilephone, information, id, confirmed, lastname, username]
+2017-01-06 20:22:56,966 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000108: Foreign keys: []
+2017-01-06 20:22:56,966 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 74) HHH000126: Indexes: [primary]
+2017-01-06 20:22:56,966 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 74) HHH000232: Schema update complete
+2017-01-06 20:22:59,838 INFO  [org.jboss.resteasy.plugins.validation.AbstractValidatorContextResolver] (MSC service thread 1-13) Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2017-01-06 20:22:59,945 INFO  [io.undertow.servlet] (MSC service thread 1-16) Initializing AtmosphereFramework
+2017-01-06 20:22:59,950 INFO  [org.atmosphere.util.IOUtils] (MSC service thread 1-16) Successfully loaded and installed META-INF/services/org.atmosphere.cpr.AtmosphereFramework
+2017-01-06 20:23:02,939 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-16) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/inzynierka-web'
+2017-01-06 20:23:09,528 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (MSC service thread 1-16) @FacesConverter is using both value and forClass, only value will be applied.
+2017-01-06 20:23:28,448 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (MSC service thread 1-16) Running on PrimeFaces 5.3
+2017-01-06 20:23:31,249 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (MSC service thread 1-16) Deploying javax.ws.rs.core.Application: class salasa.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+2017-01-06 20:23:31,493 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere is using org.atmosphere.cpr.DefaultAnnotationProcessor for processing annotation
+2017-01-06 20:23:31,493 INFO  [org.atmosphere.cpr.DefaultAnnotationProcessor] (MSC service thread 1-16) AnnotationProcessor class org.atmosphere.cpr.DefaultAnnotationProcessor$ServletContainerInitializerAnnotationProcessor being used
+2017-01-06 20:23:31,494 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class org.primefaces.push.impl.PushEndpointMapper being scanned: interface org.atmosphere.config.service.EndpointMapperService
+2017-01-06 20:23:31,494 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class org.primefaces.push.impl.PushEndpointInterceptor being scanned: interface org.atmosphere.config.service.AtmosphereInterceptorService
+2017-01-06 20:23:31,495 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class org.primefaces.push.impl.PushEndpointProcessor being scanned: interface org.atmosphere.config.AtmosphereAnnotation
+2017-01-06 20:23:31,503 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.counter.CounterResource being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:23:31,516 INFO  [org.atmosphere.util.ForkJoinPool] (MSC service thread 1-16) Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2017-01-06 20:23:31,519 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /counter and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:23:31,519 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:23:31,522 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.websocket.CalendarSocket being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:23:31,523 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /calendar and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:23:31,524 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:23:31,524 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.websocket.MessageSocket being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:23:31,525 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /messages/{user} and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:23:31,525 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:23:31,526 INFO  [org.atmosphere.cpr.AnnotationHandler] (MSC service thread 1-16) Found Annotation in class salasa.websocket.NewMessageSocket being scanned: interface org.primefaces.push.annotation.PushEndpoint
+2017-01-06 20:23:31,527 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy mapped to context-path /{user} and Broadcaster Class org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:23:31,528 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor [@PushEndpoint Interceptor] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:23:31,528 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Auto detecting WebSocketHandler in /WEB-INF/classes/
+2017-01-06 20:23:31,534 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2017-01-06 20:23:31,537 INFO  [org.atmosphere.container.JSR356AsyncSupport] (MSC service thread 1-16) JSR 356 Mapping path /primepush
+2017-01-06 20:23:31,537 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush
+2017-01-06 20:23:31,538 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}
+2017-01-06 20:23:31,538 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}/{path1}
+2017-01-06 20:23:31,538 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}/{path1}/{path2}
+2017-01-06 20:23:31,538 INFO  [io.undertow.websockets.jsr] (MSC service thread 1-16) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /primepush/{path0}/{path1}/{path2}/{path3}
+2017-01-06 20:23:31,538 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installing Default AtmosphereInterceptors
+2017-01-06 20:23:31,539 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2017-01-06 20:23:31,539 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2017-01-06 20:23:31,540 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2017-01-06 20:23:31,541 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2017-01-06 20:23:31,543 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+2017-01-06 20:23:31,544 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2017-01-06 20:23:31,544 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2017-01-06 20:23:31,545 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2017-01-06 20:23:31,546 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2017-01-06 20:23:31,546 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2017-01-06 20:23:31,547 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2017-01-06 20:23:31,547 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2017-01-06 20:23:31,547 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Atmosphere LifeCycle with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,547 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2017-01-06 20:23:31,547 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor @PushEndpoint Interceptor with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,547 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2017-01-06 20:23:31,547 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,548 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,548 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,548 INFO  [org.atmosphere.interceptor.HeartbeatInterceptor] (MSC service thread 1-16) HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+2017-01-06 20:23:31,548 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,548 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,548 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,549 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,549 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,549 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2017-01-06 20:23:31,549 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2017-01-06 20:23:31,550 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using EndpointMapper class org.primefaces.push.impl.PushEndpointMapper
+2017-01-06 20:23:31,552 WARN  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+2017-01-06 20:23:31,552 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2017-01-06 20:23:31,552 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Broadcaster Shared List Resources: false
+2017-01-06 20:23:31,552 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Broadcaster Polling Wait Time 100
+2017-01-06 20:23:31,552 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Shared ExecutorService supported: true
+2017-01-06 20:23:31,553 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2017-01-06 20:23:31,553 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Async I/O Thread Pool Size: 200
+2017-01-06 20:23:31,553 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2017-01-06 20:23:31,553 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2017-01-06 20:23:31,553 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2017-01-06 20:23:31,556 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Invoke AtmosphereInterceptor on WebSocket message true
+2017-01-06 20:23:31,557 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) HttpSession supported: false
+2017-01-06 20:23:31,557 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2017-01-06 20:23:31,557 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: WildFly 8.1.0.Final - 1.0.15.Final using javax.servlet/3.0 and jsr356/WebSocket API
+2017-01-06 20:23:31,558 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) Atmosphere Framework 2.4.0 started.
+2017-01-06 20:23:31,558 INFO  [org.atmosphere.cpr.AtmosphereFramework] (MSC service thread 1-16) 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+2017-01-06 20:23:31,562 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017534: Registered web context: /inzynierka-web
+2017-01-06 20:23:32,066 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018559: Deployed "inzynierka-ear.ear" (runtime-name : "inzynierka-ear.ear")
+2017-01-06 20:23:32,067 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-ejb.jar".deploymentCompleteService (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."com.sun.faces.config.ConfigureListener".START (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.faces.webapp.FacesServlet".START (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.faces.webapp.FacetTag".START (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."org.jboss.weld.servlet.WeldInitialListener".START (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".component."org.primefaces.push.PushServlet".START (new available)
+      service jboss.deployment.subunit."inzynierka-ear.ear"."inzynierka-web.war".deploymentCompleteService (new available)
+      service jboss.undertow.deployment.default-server.default-host./inzynierka-web (new available)
+
+2017-01-06 20:23:38,064 INFO  [org.atmosphere.cpr.AtmosphereFramework] (Thread-115) Latest version of Atmosphere's JavaScript Client 2.3.1
+2017-01-06 20:23:38,064 INFO  [org.atmosphere.cpr.AtmosphereFramework] (Thread-115) 
+
+	Atmosphere Framework Updates:
+	Major Update available (new features): 2.4.8
+2017-01-06 20:25:05,764 INFO  [stdout] (default task-9) findNumberOfNewMessages 0
+2017-01-06 20:25:05,775 INFO  [stdout] (default task-9) getYourAndUserMessages() 
+2017-01-06 20:25:05,789 INFO  [stdout] (default task-9)  map.get(user2) : null
+2017-01-06 20:25:07,517 INFO  [org.atmosphere.interceptor.HeartbeatInterceptor] (default task-11) HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+2017-01-06 20:25:07,518 INFO  [org.atmosphere.cpr.AtmosphereFramework] (default task-11) Installed AtmosphereInterceptor [CORS Interceptor Support,  Track Message Size Interceptor using |, org.atmosphere.interceptor.IdleResourceInterceptor, Atmosphere LifeCycle, @PushEndpoint Interceptor, Default Response's Headers Interceptor, Browser Padding Interceptor Support, Android Interceptor Support, Heartbeat Interceptor Support, SSE Interceptor Support, JSONP Interceptor Support, Atmosphere JavaScript Protocol, org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor, Browser disconnection detection] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:25:07,520 INFO  [org.atmosphere.interceptor.HeartbeatInterceptor] (default task-12) HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+2017-01-06 20:25:07,520 INFO  [org.atmosphere.cpr.AtmosphereFramework] (default task-12) Installed AtmosphereInterceptor [CORS Interceptor Support,  Track Message Size Interceptor using |, org.atmosphere.interceptor.IdleResourceInterceptor, Atmosphere LifeCycle, @PushEndpoint Interceptor, Default Response's Headers Interceptor, Browser Padding Interceptor Support, Android Interceptor Support, Heartbeat Interceptor Support, SSE Interceptor Support, JSONP Interceptor Support, Atmosphere JavaScript Protocol, org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor, Browser disconnection detection] mapped to AtmosphereHandler org.primefaces.push.impl.PushEndpointHandlerProxy
+2017-01-06 20:25:07,533 INFO  [salasa.websocket.MessageSocket] (default task-12) OnOpen RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/messages/mat requestURI=/inzynierka-web/primepush/messages/mat requestURL=http://localhost:8080/inzynierka-web/primepush/messages/mat AtmosphereResource UUID=965d7777-6b72-4554-b300-bc38c98a1197 destroyable=false}, uri='/inzynierka-web/primepush/messages/mat', status=Status{status=OPEN}}
+2017-01-06 20:25:07,533 INFO  [salasa.websocket.MessageSocket] (default task-11) OnOpen RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=c1e94449-3abd-460e-9636-1c93031430f8 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=OPEN}}
+2017-01-06 20:25:09,284 INFO  [stdout] (default task-13) findNumberOfNewMessages 0
+2017-01-06 20:25:09,285 INFO  [stdout] (default task-13) getYourAndUserMessages() 
+2017-01-06 20:25:09,294 INFO  [stdout] (default task-13) findNumberOfNewMessages 0
+2017-01-06 20:25:09,300 INFO  [stdout] (default task-13) findNumberOfNewMessages 0
+2017-01-06 20:25:09,302 INFO  [stdout] (default task-13) ustawiam usera na : jast
+2017-01-06 20:25:09,316 INFO  [stdout] (default task-13) findNumberOfNewMessages 0
+2017-01-06 20:25:09,318 INFO  [stdout] (default task-13) getYourAndUserMessages() 
+2017-01-06 20:25:09,346 INFO  [stdout] (default task-13)  map.get(user2) : null
+2017-01-06 20:25:13,275 INFO  [stdout] (default task-14) findNumberOfNewMessages 0
+2017-01-06 20:25:13,346 INFO  [salasa.websocket.MessageSocket] (default task-19) OnClose RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=c1e94449-3abd-460e-9636-1c93031430f8 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=CLOSED_BY_CLIENT}}
+2017-01-06 20:25:13,394 INFO  [salasa.websocket.MessageSocket] (default task-21) OnClose RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/messages/mat requestURI=/inzynierka-web/primepush/messages/mat requestURL=http://localhost:8080/inzynierka-web/primepush/messages/mat AtmosphereResource UUID=965d7777-6b72-4554-b300-bc38c98a1197 destroyable=false}, uri='/inzynierka-web/primepush/messages/mat', status=Status{status=CLOSED_BY_CLIENT}}
+2017-01-06 20:25:13,618 INFO  [salasa.websocket.MessageSocket] (default task-26) OnOpen RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=94b5319b-aee9-42f2-b694-1f5d398edd28 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=OPEN}}
+2017-01-06 20:25:13,741 INFO  [stdout] (default task-27) findNumberOfNewMessages 0
+2017-01-06 20:25:13,746 INFO  [stdout] (default task-27) findNumberOfNewMessages 0
+2017-01-06 20:25:13,751 INFO  [stdout] (default task-27) findNumberOfNewMessages 0
+2017-01-06 20:25:13,761 INFO  [stdout] (default task-27) findNumberOfNewMessages 0
+2017-01-06 20:25:17,365 INFO  [salasa.websocket.MessageSocket] (default task-33) OnClose RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=94b5319b-aee9-42f2-b694-1f5d398edd28 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=CLOSED_BY_CLIENT}}
+2017-01-06 20:25:20,175 INFO  [stdout] (default task-38) findNumberOfNewMessages 0
+2017-01-06 20:25:20,425 INFO  [salasa.websocket.MessageSocket] (default task-39) OnOpen RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=f2f85998-030b-4a8c-a64d-24402da996b4 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=OPEN}}
+2017-01-06 20:25:20,546 INFO  [stdout] (default task-40) findNumberOfNewMessages 0
+2017-01-06 20:25:20,551 INFO  [stdout] (default task-40) findNumberOfNewMessages 0
+2017-01-06 20:25:20,556 INFO  [stdout] (default task-40) findNumberOfNewMessages 0
+2017-01-06 20:25:20,563 INFO  [stdout] (default task-40) findNumberOfNewMessages 0
+2017-01-06 20:25:22,582 INFO  [stdout] (default task-42) findNumberOfNewMessages 0
+2017-01-06 20:25:22,587 INFO  [stdout] (default task-42) findNumberOfNewMessages 0
+2017-01-06 20:25:22,592 INFO  [stdout] (default task-42) findNumberOfNewMessages 0
+2017-01-06 20:25:22,598 INFO  [stdout] (default task-42) findNumberOfNewMessages 0
+2017-01-06 20:25:28,310 INFO  [stdout] (default task-43) findNumberOfNewMessages 0
+2017-01-06 20:25:28,315 INFO  [stdout] (default task-43) findNumberOfNewMessages 0
+2017-01-06 20:25:28,320 INFO  [stdout] (default task-43) findNumberOfNewMessages 0
+2017-01-06 20:25:28,330 INFO  [stdout] (default task-43) findNumberOfNewMessages 0
+2017-01-06 20:25:32,339 INFO  [stdout] (default task-44) findNumberOfNewMessages 0
+2017-01-06 20:25:32,344 INFO  [stdout] (default task-44) findNumberOfNewMessages 0
+2017-01-06 20:25:32,349 INFO  [stdout] (default task-44) findNumberOfNewMessages 0
+2017-01-06 20:25:32,358 INFO  [stdout] (default task-44) findNumberOfNewMessages 0
+2017-01-06 20:25:36,567 INFO  [stdout] (default task-45) findNumberOfNewMessages 0
+2017-01-06 20:25:36,571 INFO  [stdout] (default task-45) findNumberOfNewMessages 0
+2017-01-06 20:25:36,575 INFO  [stdout] (default task-45) findNumberOfNewMessages 0
+2017-01-06 20:25:36,583 INFO  [stdout] (default task-45) findNumberOfNewMessages 0
+2017-01-06 20:25:41,286 INFO  [stdout] (default task-46) findNumberOfNewMessages 0
+2017-01-06 20:25:41,290 INFO  [stdout] (default task-46) findNumberOfNewMessages 0
+2017-01-06 20:25:41,294 INFO  [stdout] (default task-46) findNumberOfNewMessages 0
+2017-01-06 20:25:41,301 INFO  [stdout] (default task-46) findNumberOfNewMessages 0
+2017-01-06 20:25:45,055 INFO  [stdout] (default task-47) findNumberOfNewMessages 0
+2017-01-06 20:25:45,060 INFO  [stdout] (default task-47) findNumberOfNewMessages 0
+2017-01-06 20:25:45,128 INFO  [stdout] (default task-47) findNumberOfNewMessages 0
+2017-01-06 20:25:45,130 INFO  [stdout] (default task-47) polskie znaki w description przed zapisem: 
+2017-01-06 20:25:45,407 INFO  [stdout] (default task-47) findNumberOfNewMessages 0
+2017-01-06 20:25:45,481 INFO  [stdout] (default task-48) findNumberOfNewMessages 0
+2017-01-06 20:25:45,487 INFO  [stdout] (default task-48) findNumberOfNewMessages 0
+2017-01-06 20:25:45,490 INFO  [stdout] (default task-48) findNumberOfNewMessages 0
+2017-01-06 20:25:45,497 INFO  [stdout] (default task-48) findNumberOfNewMessages 0
+2017-01-06 20:25:45,540 INFO  [stdout] (default task-49) findNumberOfNewMessages 0
+2017-01-06 20:25:45,575 INFO  [stdout] (default task-50) findNumberOfNewMessages 0
+2017-01-06 20:25:45,580 INFO  [stdout] (default task-50) findNumberOfNewMessages 0
+2017-01-06 20:25:45,584 INFO  [stdout] (default task-50) findNumberOfNewMessages 0
+2017-01-06 20:25:45,590 INFO  [stdout] (default task-50) findNumberOfNewMessages 0
+2017-01-06 20:25:46,780 INFO  [stdout] (default task-51) findNumberOfNewMessages 0
+2017-01-06 20:25:46,784 INFO  [stdout] (default task-51) findNumberOfNewMessages 0
+2017-01-06 20:25:46,787 INFO  [stdout] (default task-51) findNumberOfNewMessages 0
+2017-01-06 20:25:46,793 INFO  [stdout] (default task-51) findNumberOfNewMessages 0
+2017-01-06 20:25:49,770 INFO  [stdout] (default task-52) findNumberOfNewMessages 0
+2017-01-06 20:25:49,774 INFO  [stdout] (default task-52) findNumberOfNewMessages 0
+2017-01-06 20:25:49,779 INFO  [stdout] (default task-52) 2
+2017-01-06 20:25:49,796 INFO  [stdout] (default task-52) findNumberOfNewMessages 0
+2017-01-06 20:25:49,799 INFO  [stdout] (default task-52) polskie znaki w description przed zapisem: 
+2017-01-06 20:25:49,883 INFO  [stdout] (default task-52) findNumberOfNewMessages 0
+2017-01-06 20:25:49,981 INFO  [stdout] (default task-53) findNumberOfNewMessages 0
+2017-01-06 20:25:49,987 INFO  [stdout] (default task-53) findNumberOfNewMessages 0
+2017-01-06 20:25:49,993 INFO  [stdout] (default task-53) findNumberOfNewMessages 0
+2017-01-06 20:25:50,002 INFO  [stdout] (default task-53) findNumberOfNewMessages 0
+2017-01-06 20:25:50,053 INFO  [stdout] (default task-54) findNumberOfNewMessages 0
+2017-01-06 20:25:50,097 INFO  [stdout] (default task-55) findNumberOfNewMessages 0
+2017-01-06 20:25:50,103 INFO  [stdout] (default task-55) findNumberOfNewMessages 0
+2017-01-06 20:25:50,109 INFO  [stdout] (default task-55) findNumberOfNewMessages 0
+2017-01-06 20:25:50,115 INFO  [stdout] (default task-55) findNumberOfNewMessages 0
+2017-01-06 20:25:52,071 INFO  [stdout] (default task-58) findNumberOfNewMessages 0
+2017-01-06 20:25:52,074 INFO  [stdout] (default task-58) findNumberOfNewMessages 0
+2017-01-06 20:25:52,078 INFO  [stdout] (default task-58) findNumberOfNewMessages 0
+2017-01-06 20:25:52,199 INFO  [salasa.websocket.MessageSocket] (default task-62) OnClose RemoteEndpointImpl{request=AtmosphereRequest{ method=GET contextPath=/inzynierka-web servletPath=/primepush pathInfo=/mat requestURI=/inzynierka-web/primepush/mat requestURL=http://localhost:8080/inzynierka-web/primepush/mat AtmosphereResource UUID=f2f85998-030b-4a8c-a64d-24402da996b4 destroyable=false}, uri='/inzynierka-web/primepush/mat', status=Status{status=CLOSED_BY_CLIENT}}
+2017-01-06 20:26:20,273 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017535: Unregistered web context: /inzynierka-web
+2017-01-06 20:26:20,277 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) JBAS010409: Unbound data source [java:jboss/datasources/inzynierkaDS]
+2017-01-06 20:26:20,293 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 84) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-01-06 20:26:20,310 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 87) JBAS011605: Unbound messaging object to jndi name java:/ConnectionFactory
+2017-01-06 20:26:20,325 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017532: Host default-host stopping
+2017-01-06 20:26:20,346 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 90) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:26:20,354 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016009: Stopping weld service for deployment inzynierka-ear.ear
+2017-01-06 20:26:20,357 INFO  [org.jboss.as.messaging] (MSC service thread 1-16) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-01-06 20:26:20,357 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-01-06 20:26:20,358 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-13) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+2017-01-06 20:26:20,359 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) JBAS010418: Stopped Driver service with driver-name = h2
+2017-01-06 20:26:20,390 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 83) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'inzynierka-ear.ear/inzynierka-ejb.jar#primary'
+2017-01-06 20:26:20,390 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-15) JBAS010409: Unbound data source [java:/mysql]
+2017-01-06 20:26:20,399 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010418: Stopped Driver service with driver-name = mysqlDriver
+2017-01-06 20:26:20,401 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-ejb.jar) in 130ms
+2017-01-06 20:26:20,449 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 90) HQ151003: HornetQ resource adaptor stopped
+2017-01-06 20:26:20,744 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015974: Stopped subdeployment (runtime-name: inzynierka-web.war) in 467ms
+2017-01-06 20:26:20,745 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015877: Stopped deployment inzynierka-ear.ear (runtime-name: inzynierka-ear.ear) in 468ms
+2017-01-06 20:26:21,080 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 90) HQ221002: HornetQ Server version 2.4.1.Final (Fast Hornet, 124) [cd573558-b0c1-11e6-a465-a9f2e63caccd] stopped
+2017-01-06 20:26:21,083 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017521: Undertow HTTP listener default suspending
+2017-01-06 20:26:21,084 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2017-01-06 20:26:21,086 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017506: Undertow 1.0.15.Final stopping
+2017-01-06 20:26:21,090 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 799ms

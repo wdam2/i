@@ -1,0 +1,12 @@
+1481045017013	Copy compilation unit
+1481045048054	Delete element
+1481069664028	Rename compilation unit 'DefaultScheduleEvent.java'
+1481110529618	Rename type 'DefaultScheduleEvent2'
+1481112350714	Rename type 'ScheduleService'
+1481113275493	Encapsulate field 'events'
+1481132000392	Extract local variable 'events'
+1481132231096	Extract local variable 'startDate'
+1481135862710	Extract local variable 'query'
+1481135925408	Extract local variable 'resultList'
+1481235910262	Extract local variable 'userReference'
+1481378604784	Rename type 'UserRegistration'

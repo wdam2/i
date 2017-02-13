@@ -1,0 +1,1071 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-22 15:41:07.149
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-22 15:41:45.243
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 15:42:54.502
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-22 15:43:14.525
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-22 15:43:25.529
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-22 17:15:06.088
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-22 17:15:15.127
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 17:15:15.140
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-22 17:15:35.158
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-11-22 17:19:34.492
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-22 17:19:34.965
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-22 17:19:36.033
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-22 17:19:40.139
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 17:20:10.267
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-22 17:20:30.288
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-22 19:39:40.603
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-22 19:39:51.108
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-22 19:40:00.737
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 19:40:00.746
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-22 19:40:22.766
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 19:41:37.222
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-22 19:41:57.236
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-11-22 19:42:19.761
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-22 19:42:20.168
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-22 19:42:21.234
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-22 19:42:25.237
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 19:44:50.002
+!MESSAGE Module inzynierka-ear on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-22 20:04:21.911
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-22 20:04:31.788
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 16842784 2016-11-22 20:04:35.691
+!MESSAGE Poll Thread Aborted: null
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-22 20:04:36.424
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 16973826 2016-11-22 20:04:36.786
+!MESSAGE The server was shutdown forcefully. All processes were terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-22 20:05:07.079
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-22 20:05:11.083
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 20:06:00.256
+!MESSAGE Module inzynierka-ear on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-22 20:57:43.021
+!MESSAGE Module inzynierka-ear on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-23 01:00:19.997
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-23 18:42:06.984
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-23 18:42:11.221
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 18:42:11.235
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 18:42:31.252
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-11-23 18:43:34.717
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-23 18:43:35.111
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-23 18:43:36.193
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-23 18:43:39.696
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 18:44:11.006
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 18:44:31.023
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-11-23 19:00:01.804
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-23 19:00:02.223
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-23 19:00:03.284
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-23 19:00:08.497
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 19:00:23.503
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 19:00:43.535
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-23 19:02:27.353
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-23 19:03:22.901
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-23 19:03:26.306
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 19:03:51.606
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 19:04:11.626
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 19:14:57.838
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 19:15:17.855
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 19:15:42.473
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 19:16:02.503
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 20:08:38.502
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 20:08:58.697
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-23 22:12:51.321
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-23 23:48:02.172
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 23:48:15.857
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-23 23:48:15.892
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 23:48:35.869
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-23 23:58:12.671
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-23 23:58:32.691
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-24 00:22:03.610
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-24 00:22:23.627
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-24 00:24:09.122
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-27 17:28:17.829
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-27 17:28:31.537
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-27 17:28:31.542
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-27 17:28:51.559
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-27 17:31:19.329
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-27 17:31:39.348
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-27 17:34:05.851
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-27 17:34:25.874
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-11-27 17:36:41.457
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-11-27 17:36:45.573
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-27 17:37:52.931
+!MESSAGE Module inzynierka-ear on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-27 17:42:06.530
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-27 17:42:26.553
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-27 17:43:12.321
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-27 17:43:32.336
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-11-27 18:15:32.326
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-11-27 18:15:52.345
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-11-27 22:56:43.257
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-03 13:53:18.596
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 13:53:34.706
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-03 13:53:34.719
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 13:53:54.725
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2016-12-03 16:11:55.858
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-03 16:11:55.858
+!MESSAGE Error reading file C:\Users\mateusz\.m2\repository\javax\servlet\servlet-api\3.0.1\servlet-api-3.0.1.jar
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2016-12-03 16:12:11.249
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-03 16:12:11.249
+!MESSAGE Error reading file C:\Users\mateusz\.m2\repository\javax\servlet\servlet-api\3.0.1\servlet-api-3.0.1.jar
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-03 16:13:53.389
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-03 16:55:03.653
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-03 16:55:08.868
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-03 17:01:12.832
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-03 17:01:13.190
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-03 17:01:14.879
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-03 17:01:18.384
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 17:01:18.394
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 17:01:38.408
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 17:12:03.136
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 17:12:23.151
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 17:13:22.529
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 17:13:42.548
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 17:18:53.221
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 17:19:13.243
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 17:20:25.605
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 17:20:45.625
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-03 17:25:11.223
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-03 17:27:42.989
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-03 17:27:45.991
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 17:27:46.000
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 17:28:06.015
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-03 17:36:27.030
+!MESSAGE Module inzynierka-ear on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-03 17:36:47.041
+!MESSAGE Module inzynierka-ear on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-03 18:51:48.564
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-04 13:29:11.980
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-04 13:29:23.906
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-04 13:29:23.922
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-04 13:29:43.937
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-04 14:39:00.025
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-04 14:47:31.087
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-04 14:47:34.617
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-05 00:12:08.188
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-05 00:12:15.185
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-05 00:12:20.209
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-05 00:31:45.817
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 12:59:22.537
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 12:59:39.308
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-06 12:59:39.323
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-06 12:59:59.338
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-06 15:13:26.222
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2016-12-06 15:13:27.633
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 15:13:32.790
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 15:13:41.321
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-06 15:14:04.524
+!MESSAGE Module inzynierka-ear on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-06 15:14:24.535
+!MESSAGE Module inzynierka-ear on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-06 16:22:36.243
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 17:57:27.124
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 17:57:48.313
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-06 18:29:26.707
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-06 18:29:46.715
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-06 22:25:23.672
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 23:26:40.358
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 23:26:53.697
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-06 23:42:38.985
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-06 23:42:39.897
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-06 23:42:40.971
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-06 23:42:44.393
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-07 01:00:57.761
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-07 01:00:59.060
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-07 01:01:01.560
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-07 01:01:16.331
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-07 01:01:17.206
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-07 01:01:37.220
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2016-12-07 11:50:56.616
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-07 11:50:56.616
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\classes\salasa\controller\DefaultScheduleModel.class. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-07 11:51:08.096
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-07 11:51:15.997
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-07 14:49:07.534
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-07 14:49:08.632
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-07 19:25:56.492
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-07 19:26:09.246
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-08 00:11:20.117
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-08 00:25:28.624
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-08 00:25:42.898
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-08 00:40:48.051
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-08 21:11:52.747
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-08 21:12:12.112
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-08 23:22:10.668
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2016-12-08 23:22:12.378
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-08 23:22:18.257
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-08 23:22:22.363
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-08 23:22:22.376
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-08 23:22:42.385
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-08 23:27:10.873
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-08 23:28:53.923
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-08 23:28:57.328
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-10 17:08:53.258
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-10 17:08:58.072
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 02:15:30.967
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 14:10:57.801
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-11 14:11:03.371
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-11 14:34:28.867
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 14:34:29.793
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 14:34:31.295
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-11 14:34:37.517
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-11 14:34:37.554
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-11 14:34:57.571
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-11 14:41:52.805
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 14:41:53.646
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 14:41:57.813
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-11 14:42:03.120
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-11 15:13:49.652
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 15:13:50.481
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 15:13:51.777
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-11 15:14:03.087
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-11 15:23:02.340
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 15:23:03.204
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 15:23:04.272
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 15:23:06.530
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 15:23:19.933
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 15:23:22.142
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 15:26:15.271
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 15:26:17.529
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 15:29:23.348
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 15:29:25.560
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 15:29:57.556
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-11 15:30:02.162
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-11 15:35:05.215
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 15:35:05.520
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-11 15:35:06.578
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-11 15:35:11.287
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-11 16:15:09.087
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-11 16:15:09.857
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-12 11:44:55.873
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-12 11:45:39.105
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-12 13:20:16.560
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-12 13:20:17.490
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-12 13:42:16.118
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-12 13:42:23.508
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2016-12-12 14:49:49.936
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 14:49:49.937
+!MESSAGE Error reading file C:\Users\mateusz\.m2\repository\org\atmosphere\atmosphere-runtime\2.3.RC6\atmosphere-runtime-2.3.RC6.jar
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2016-12-12 15:46:17.646
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 15:46:17.646
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\lib\atmosphere-runtime-libs-2.3.0-RC6.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2016-12-12 15:46:22.215
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 15:46:22.215
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\lib\atmosphere-runtime-libs-2.3.0-RC6.jar. May be locked by another process.
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 15:46:22.215
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\lib\atmosphere-runtime-2.3.0-RC6.jar. May be locked by another process.
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 15:46:22.215
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\lib\slf4j-api-1.7.7.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2016-12-12 15:46:24.033
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 15:46:24.033
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\lib\atmosphere-runtime-libs-2.3.0-RC6.jar. May be locked by another process.
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 15:46:24.033
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\lib\atmosphere-runtime-2.3.0-RC6.jar. May be locked by another process.
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-12-12 15:46:24.033
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\lib\slf4j-api-1.7.7.jar. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-12 15:57:27.357
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-12 15:57:38.369
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-12 16:04:54.438
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-12 16:05:14.452
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-12 17:34:37.386
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-12 17:34:38.375
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-12 17:34:40.003
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-12 17:34:45.207
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-12 17:36:53.502
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-12 17:36:54.527
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-12 17:36:55.599
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-12 17:37:01.506
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-12 17:43:38.278
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-14 13:26:14.836
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-14 13:26:32.715
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-14 15:39:34.656
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-14 15:39:54.747
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-14 18:55:49.204
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-14 18:55:53.174
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-14 18:55:55.440
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-14 18:56:15.056
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-14 18:56:43.862
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-14 18:57:03.871
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-15 00:01:48.241
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-15 00:01:49.538
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-15 20:02:00.263
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-15 20:02:21.529
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-16 01:23:06.123
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-17 12:54:10.115
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-17 12:54:15.824
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-17 18:31:20.139
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2016-12-17 18:31:22.071
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-17 18:31:24.153
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-17 18:31:36.951
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-17 18:40:04.810
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-17 18:40:10.220
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-17 18:40:10.239
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-17 18:40:30.248
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-17 18:43:26.399
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-17 18:43:29.728
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-17 18:43:34.336
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-17 18:43:34.352
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-12-17 18:43:54.362
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-17 20:56:18.367
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-21 11:56:03.299
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-21 11:56:27.456
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-21 12:41:50.387
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2016-12-21 12:41:51.792
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-21 12:44:14.948
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-21 12:44:21.760
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-21 12:48:10.018
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-21 12:48:10.461
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-21 13:17:37.672
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-21 13:17:42.897
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2016-12-21 14:37:14.804
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-12-21 14:37:16.310
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-05 16:36:37.603
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-05 16:36:58.700
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-06 00:09:13.826
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-06 20:20:10.521
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-06 20:20:31.449
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-01-06 20:26:20.265
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-06 20:26:21.596
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-07 18:18:38.159
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-07 18:18:44.051
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-01-07 18:18:44.063
+!MESSAGE Module inzynierka-ear on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-01-07 18:19:04.077
+!MESSAGE Module inzynierka-ear on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2017-01-07 18:58:22.563
+!MESSAGE Incremental publish failed for module inzynierka-web
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2017-01-07 18:58:22.563
+!MESSAGE Could not delete C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\deployments\inzynierka-ear.ear\inzynierka-web.war\WEB-INF\classes\salasa\util\WebResources.class. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-07 18:58:23.978
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-07 18:58:27.542
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-07 23:48:18.295
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-08 10:52:12.444
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-08 10:52:30.677
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-01-08 12:25:14.442
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-08 12:25:15.152
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-08 12:25:16.458
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-08 12:25:26.599
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-01-08 12:27:40.838
+!MESSAGE Module inzynierka-web on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2017-01-08 12:28:00.849
+!MESSAGE Module inzynierka-web on WildFly  8.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-01-08 12:43:55.003
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-08 12:43:55.782
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-08 12:45:43.612
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-08 12:45:48.333
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-08 17:44:39.320
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-08 20:00:31.471
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-08 20:00:44.983
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-08 21:02:13.596
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-08 21:02:23.900
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-08 21:02:33.641
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-08 22:22:17.062
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-09 12:13:24.556
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-09 12:13:30.643
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-09 12:49:03.757
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-09 12:50:17.012
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-09 12:50:21.623
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-01-09 14:30:26.549
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-09 14:30:27.294
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-09 14:30:29.159
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-09 14:30:38.892
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2017-01-09 14:30:54.402
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-09 14:30:55.225
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-09 14:30:56.268
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-09 14:31:00.872
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-09 20:23:24.535
+!MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-17 14:23:37.430
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-17 14:23:59.891
+!MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-01-18 00:25:42.221
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-01-18 00:26:21.444
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-01-18 00:34:18.499
+!MESSAGE Server processes have been terminated.

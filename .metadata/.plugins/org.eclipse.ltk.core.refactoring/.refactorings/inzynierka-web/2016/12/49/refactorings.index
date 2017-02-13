@@ -1,0 +1,15 @@
+1481045787607	Move compilation unit
+1481049514408	Delete element
+1481052071339	Delete element
+1481052075179	Delete element
+1481107663927	Delete element
+1481109918108	Rename resource 'ScheduleView.java'
+1481147377089	Delete element
+1481147379214	Delete element
+1481147424429	Encapsulate field 'createdForId'
+1481147696694	Encapsulate field 'createForId'
+1481378686302	Rename type 'EventController'
+1481386032956	Encapsulate field 'user'
+1481389794744	Encapsulate field 'user'
+1481390791989	Extract local variable 'user'
+1481392486906	Delete element

@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>${rootArtifactId}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- <title>title register</title>  -->
+
+	<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> -->
+
+	<h:outputStylesheet library="css" name="bootstrap.css"></h:outputStylesheet>
+	<h:outputStylesheet library="css" name="bootstrap-theme.css"></h:outputStylesheet>
+</h:head>
+<h:body>
+	<p:socket rendered="#{userController.user != null}" channel="/#{userController.user.username}">
+		<p:ajax event="message" update="numberOfNewMessages" />
+	</p:socket>
+	<div id="head">
+		<nav class="navbar navbar-default">
+		<div class="container-fluid">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-navbar-content">
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+				</button>
+				<span class="navbar-brand" >Kancelaria Radcy Prawnego</span>
+			</div>
+
+
+			<div class="collapse navbar-collapse"  id="my-navbar-content"><h:panelGroup id="numberOfNewMessages" >
+				<ul class="nav navbar-nav">
+					<li class="#{ (request.servletPath).equals('/home.xhtml') ? 'active' : ''} "><a href="home.xhtml">Strona główna</a></li>						
+					<li class="#{ (request.servletPath).equals('/calendar.xhtml') ? 'active' : '' }"><a href="calendar.xhtml">Kalendarz</a></li>							
+					<li class="#{ (request.servletPath).equals('/messages.xhtml') ? 'active' : '' }"><a href="messages.xhtml">Wiadomości <h:outputText
+							styleClass="badge" rendered="#{ (userController.user) != null ? !'0'.equals(messagesController.numberOfNewMessages) : 'false' }" value="#{messagesController.numberOfNewMessages}" /></a></li>													
+					<li class="#{ (request.servletPath).equals('/contact.xhtml') ? 'active' : '' }"><a href="contact.xhtml">Kontakt</a></li>					
+					<ui:fragment rendered="#{userController.user.role == 'ENTREPRENEUR'}">
+						<li class="#{ (request.servletPath).equals('/clients.xhtml') ? 'active' : '' }"><a href="clients.xhtml">Klienci</a></li>		
+					</ui:fragment>
+				</ul>
+
+			<h:form   id="signout" class="navbar-form navbar-right" role="form" rendered="#{userController.user != null}">
+            	<h:commandButton action="#{loginController.logOut}" class="btn btn-primary" value="Wyloguj" ></h:commandButton>
+			</h:form>
+			<ui:fragment rendered="#{userController.user == null}" ><a href="calendar.xhtml" class="navbar-form navbar-right btn btn-primary">Zaloguj</a></ui:fragment>
+</h:panelGroup>
+			</div>
+			
+		</div>
+		</nav>
+	</div>
+
+	<ui:insert name="content">
+                    [Template content will be inserted here]
+   </ui:insert>
+
+
+
+<!--	<h:outputScript library="js" name="jquery.js"></h:outputScript> -->
+	<h:outputScript library="js" name="bootstrap.js"></h:outputScript>
+</h:body>
+</html>
+

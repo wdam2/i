@@ -1,0 +1,102 @@
+2016-11-22 15:41:08,683 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-11-22 15:41:13,122 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-11-22 15:41:13,568 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2016-11-22 15:41:13,576 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Java\jdk1.8.0_20\jre\lib\endorsed
+	java.ext.dirs = C:\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Java\jdk1.8.0_20\jre
+	java.io.tmpdir = C:\Users\mateusz\AppData\Local\Temp\
+	java.library.path = C:\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Java/jdk1.8.0_20/jre/bin/server;C:/Java/jdk1.8.0_20/jre/bin;C:/Java/jdk1.8.0_20/jre/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\Program Files\OpenVPN\bin;C:\MySQL\MySQL Server 5.5\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\dotnet\;C:\GNAT\2015\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\switch;C:\Users\mateusz\AppData\Roaming\cabal\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\git-2.4.0.1\cmd;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\git-2.4.0.1\usr\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\ghc-7.8.4\mingw\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\ghc-7.8.4\bin;C:\Users\mateusz\AppData\Local\Programs\minghc-7.8.4-x86_64\bin;C:\Users\mateusz\AppData\Local\atom\bin;C:\Users\mateusz\AppData\Local\Android\android-sdk\build-tools;C:\Users\mateusz\AppData\Local\Android\android-sdk\platform-tools;C:\Users\mateusz\AppData\Local\Android\android-sdk\tools;C:\Program Files\erl7.1\bin;C:\jboss-as-7.1.1.Final\bin;C:\Java\jdk1.8.0_20\bin;C:\apache-maven-3.3.9\bin;C:\eclipseEE;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_20-b26
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_20
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.20-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final
+	jboss.host.name = mateusz
+	jboss.modules.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = mateusz
+	jboss.qualified.host.name = mateusz
+	jboss.server.base.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\log
+	jboss.server.name = mateusz
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/modules
+	org.jboss.boot.log.file = C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8
+	os.version = 6.2
+	path.separator = ;
+	program.name = JBossTools: WildFly  8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Java\jdk1.8.0_20\jre\classes
+	sun.boot.library.path = C:\Java\jdk1.8.0_20\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = PL
+	user.dir = C:\Users\mateusz\Desktop\inzynierka\wildfly-8.1.0.Final\bin
+	user.home = C:\Users\mateusz
+	user.language = pl
+	user.name = mateusz
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2016-11-22 15:41:13,577 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/mateusz/Desktop/inzynierka/wildfly-8.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2016-11-22 15:41:37,182 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found inzynierka-ear.ear in deployment directory. To trigger deployment create a file called inzynierka-ear.ear.dodeploy
+2016-11-22 15:41:37,205 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-11-22 15:41:37,316 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.2.2.Final
+2016-11-22 15:41:37,399 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.2.2.Final
